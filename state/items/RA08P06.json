@@ -1,0 +1,19 @@
+{
+ "id": "RA08P06",
+ "started": "2026-10-29T18:43:26Z",
+ "download_url": "https://arxiv.org/pdf/2405.16237.pdf",
+ "final_url": "https://arxiv.org/pdf/2405.16237",
+ "http_last_modified": "Tue, 28 May 2024 01:07:41 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 0.67",
+ "info": {
+  "pages": 10,
+  "meta_title": "N-BVH: Neural ray queries with bounding volume hierarchies",
+  "body_sample_chars": 22862,
+  "title_match": 0.67
+ },
+ "bytes": 14321105,
+ "sha256": "05852e31c15541e53fc762189ecfd4096ee4c1b7418aac809e758e6be567f179",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:43:36Z"
+}

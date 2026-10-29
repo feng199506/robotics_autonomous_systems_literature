@@ -1,0 +1,15 @@
+{
+ "id": "RA03C03",
+ "started": "2026-10-29T18:24:49Z",
+ "download_url": "https://rpg.ifi.uzh.ch/docs/teaching/2025/01_introduction.pdf",
+ "verify": "通过：16 个文件均可解析（PDF 共 1070 页）；跳过 12 个不可用链接",
+ "info": {
+  "chapters": 16,
+  "pages": 1070,
+  "skipped": 12
+ },
+ "bytes": 66876931,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:25:24Z"
+}

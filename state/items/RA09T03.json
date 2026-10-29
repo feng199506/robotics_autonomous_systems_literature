@@ -1,0 +1,66 @@
+{
+ "id": "RA09T03",
+ "started": "2026-10-29T18:39:01Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://mujoco.readthedocs.io/en/stable/",
+ "mirror_scope": {
+  "start": [
+   "https://mujoco.readthedocs.io/en/stable/",
+   "https://mujoco.readthedocs.io/en/stable/overview.html",
+   "https://mujoco.readthedocs.io/en/stable/programming.html",
+   "https://mujoco.readthedocs.io/en/stable/python.html",
+   "https://mujoco.readthedocs.io/en/stable/XMLreference.html"
+  ],
+  "include": [],
+  "level": "3"
+ },
+ "verify": "通过：210 个文件（HTML 72，文档源 33）",
+ "info": {
+  "files": 210,
+  "html": 72,
+  "md_rst_ipynb": 33,
+  "top_ext": [
+   [
+    "html",
+    72
+   ],
+   [
+    "png",
+    44
+   ],
+   [
+    "txt",
+    33
+   ],
+   [
+    "svg",
+    18
+   ],
+   [
+    "gif",
+    10
+   ],
+   [
+    "css",
+    8
+   ],
+   [
+    "xml",
+    7
+   ],
+   [
+    "js",
+    4
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 47206400,
+ "sha256": "5b6d41e01d9d22e6bb5cfb96ab7603b73da700f1ad2a32fa59dca04f3bf545fa",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:40:58Z"
+}

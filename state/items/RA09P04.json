@@ -1,0 +1,19 @@
+{
+ "id": "RA09P04",
+ "started": "2026-10-29T18:49:23Z",
+ "download_url": "https://arxiv.org/pdf/2601.08514.pdf",
+ "final_url": "https://arxiv.org/pdf/2601.08514",
+ "http_last_modified": "Mon, 14 Sep 2026 01:19:06 GMT",
+ "verify": "通过：pypdf 可解析 5 页；标题词匹配 1.0",
+ "info": {
+  "pages": 5,
+  "meta_title": "Simplifying ROS2 controllers with a modular architecture for robot-agnostic reference generation",
+  "body_sample_chars": 13964,
+  "title_match": 1.0
+ },
+ "bytes": 7291707,
+ "sha256": "798756a61152fb1b2eca0b64dadfa6f3d11724ce0187e7cbadc3a42f943426d4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:49:27Z"
+}

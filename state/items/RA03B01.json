@@ -1,0 +1,16 @@
+{
+ "id": "RA03B01",
+ "reused_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Solem_ProgrammingComputerVisionWithPython_CCdraft_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 300 页；标题词匹配 1.0",
+ "info": {
+  "pages": 300,
+  "meta_title": "",
+  "body_sample_chars": 7480,
+  "title_match": 1.0
+ },
+ "bytes": 14290070,
+ "sha256": "dbb6894edf3552059e346714d039a33a0fedfc6ffc259b6eaadaa2615c0228a7",
+ "error": "",
+ "access_date": "2026-10-29"
+}

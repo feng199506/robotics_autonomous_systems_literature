@@ -1,0 +1,882 @@
+[
+ {
+  "id": "RA02B01",
+  "cat": "02",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Modern Robotics: Mechanics, Planning, and Control (updated first edition preprint)",
+  "authors": "Kevin M. Lynch; Frank C. Park",
+  "school": "Northwestern University / Seoul National University",
+  "year": "2019",
+  "version": "updated first edition preprint, 2019-12-30 (Cambridge 2017)",
+  "level": "本科高年级/研究生",
+  "prereq": "线性代数、刚体力学、基础编程",
+  "topics": "刚体运动、螺旋理论、正逆运动学、Jacobian、动力学、轨迹生成、运动规划、机械臂控制",
+  "source": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics",
+  "license": "作者/Cambridge 公开预印本（个人使用）",
+  "goal": "本科到研究生的机器人力学、规划与控制主教材",
+  "order": 1,
+  "out": "02_robot_modeling_control/books/LynchPark_ModernRobotics_updated1stEd_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/books/Lynch_ModernRobotics_2017_en.pdf",
+   "source": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+  },
+  "cross": [
+   "01",
+   "05",
+   "06"
+  ],
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "expect": {
+   "title_words": [
+    "Modern",
+    "Robotics",
+    "Mechanics"
+   ],
+   "min_pages": 400
+  },
+  "use": "通读",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://hades.mech.northwestern.edu/index.php/Modern_Robotics"
+ },
+ {
+  "id": "RA04B01",
+  "cat": "04",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "State Estimation for Robotics (Second Edition)",
+  "authors": "Timothy D. Barfoot",
+  "school": "University of Toronto",
+  "year": "2024",
+  "version": "Second Edition draft compiled 2026-09-02（作者站点）",
+  "level": "研究生",
+  "prereq": "概率、线性代数、刚体运动",
+  "topics": "Bayes 滤波、Kalman/UKF/粒子滤波、李群姿态、批量估计、位姿图、BA、SLAM",
+  "source": "https://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser24.pdf",
+  "license": "作者公开教学草稿；正式版 Cambridge 2024",
+  "goal": "机器人状态估计与三维姿态的系统教材",
+  "order": 1,
+  "out": "04_localization_mapping/books/Barfoot_StateEstimationForRobotics_2ndEd_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/books/Barfoot_StateEstimationForRobotics_2ndEd_en.pdf",
+   "source": "https://asrl.utias.utoronto.ca/~tdb/"
+  },
+  "cross": [
+   "01",
+   "03"
+  ],
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "expect": {
+   "title_words": [
+    "State",
+    "Estimation",
+    "Robotics"
+   ],
+   "min_pages": 400
+  },
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser24.pdf"
+ },
+ {
+  "id": "RA01B01",
+  "cat": "01",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Convex Optimization",
+  "authors": "Stephen Boyd; Lieven Vandenberghe",
+  "school": "Stanford University / UCLA",
+  "year": "2004",
+  "version": "Cambridge 2004（作者公开 PDF）",
+  "level": "本科高年级/研究生",
+  "prereq": "线性代数、多元微积分",
+  "topics": "凸集、凸函数、对偶、QP/SOCP/SDP、内点法",
+  "source": "https://web.stanford.edu/~boyd/cvxbook/",
+  "license": "作者/Cambridge 公开教学 PDF",
+  "goal": "轨迹优化、MPC、标定与估计中的凸优化基础",
+  "order": 1,
+  "out": "01_mathematical_foundations/books/BoydVandenberghe_ConvexOptimization_2004_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/05_advanced_control/books/BoydVandenberghe_ConvexOptimization_2004_en.pdf",
+   "source": "https://web.stanford.edu/~boyd/cvxbook/"
+  },
+  "cross": [
+   "05"
+  ],
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Convex",
+    "Optimization"
+   ],
+   "min_pages": 400
+  },
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://web.stanford.edu/~boyd/cvxbook/"
+ },
+ {
+  "id": "RA04B02",
+  "cat": "04",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Bayesian Filtering and Smoothing (2nd ed.)",
+  "authors": "Simo Särkkä; Lennart Svensson",
+  "school": "Aalto University / Chalmers",
+  "year": "2023",
+  "version": "Second edition（作者公开 PDF）",
+  "level": "研究生",
+  "prereq": "概率、线性系统",
+  "topics": "Bayes 滤波、Kalman、EKF/UKF、粒子滤波、平滑",
+  "source": "https://users.aalto.fi/~ssarkka/pub/bfs_book.html",
+  "license": "作者/Cambridge 公开教学 PDF",
+  "goal": "定位与传感器融合所需的贝叶斯滤波教材",
+  "order": 2,
+  "out": "04_localization_mapping/books/Sarkka_BayesianFilteringSmoothing_2ndEd_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/04_estimation_identification/books/Sarkka_BayesianFilteringSmoothing_2ndEd_en.pdf",
+   "source": "https://users.aalto.fi/~ssarkka/"
+  },
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Bayesian",
+    "Filtering",
+    "Smoothing"
+   ],
+   "min_pages": 300
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://users.aalto.fi/~ssarkka/pub/bfs_book.html"
+ },
+ {
+  "id": "RA01B02",
+  "cat": "01",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Calculus of Variations and Optimal Control Theory: A Concise Introduction",
+  "authors": "Daniel Liberzon",
+  "school": "University of Illinois Urbana-Champaign",
+  "year": "2012",
+  "version": "Princeton 2012（作者公开 PDF，封面署 2011 讲义）",
+  "level": "研究生",
+  "prereq": "常微分方程、线性代数",
+  "topics": "变分法、Pontryagin 极小值原理、LQR、约束最优控制",
+  "source": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf",
+  "license": "作者公开教学 PDF",
+  "goal": "轨迹优化与最优控制的数学基础",
+  "order": 2,
+  "out": "01_mathematical_foundations/books/Liberzon_CalculusOfVariationsOptimalControl_2011_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/05_advanced_control/books/Liberzon_CalculusOfVariationsOptimalControl_2011_en.pdf",
+   "source": "https://liberzon.csl.illinois.edu/"
+  },
+  "cross": [
+   "02",
+   "05"
+  ],
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Calculus",
+    "Variations",
+    "Optimal"
+   ],
+   "min_pages": 200
+  },
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://liberzon.csl.illinois.edu/teaching/cvoc.pdf"
+ },
+ {
+  "id": "RA02B02",
+  "cat": "02",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Model Predictive Control: Theory, Computation, and Design (2nd ed.)",
+  "authors": "James B. Rawlings; David Q. Mayne; Moritz M. Diehl",
+  "school": "UCSB / Imperial College / University of Freiburg",
+  "year": "2020",
+  "version": "2nd edition（作者公开 PDF）",
+  "level": "研究生",
+  "prereq": "状态空间、优化",
+  "topics": "MPC 稳定性、跟踪、经济 MPC、数值求解",
+  "source": "https://sites.engineering.ucsb.edu/~jbraw/mpc/",
+  "license": "作者公开教学 PDF",
+  "goal": "机器人轨迹跟踪与约束控制常用的 MPC 教材",
+  "order": 2,
+  "out": "02_robot_modeling_control/books/Rawlings_ModelPredictiveControl_2ndEd_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/05_advanced_control/books/Rawlings_ModelPredictiveControl_2ndEd_en.pdf",
+   "source": "https://sites.engineering.ucsb.edu/~jbraw/mpc/"
+  },
+  "cross": [
+   "05"
+  ],
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Model",
+    "Predictive",
+    "Control"
+   ],
+   "min_pages": 400
+  },
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://sites.engineering.ucsb.edu/~jbraw/mpc/"
+ },
+ {
+  "id": "RA02B03",
+  "cat": "02",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Optimization-Based Control",
+  "authors": "Richard M. Murray",
+  "school": "California Institute of Technology",
+  "year": "2010",
+  "version": "作者讲义 PDF",
+  "level": "研究生",
+  "prereq": "经典/现代控制、优化",
+  "topics": "LQR、MPC、轨迹生成、Kalman、传感器融合",
+  "source": "https://www.cds.caltech.edu/~murray/books/AM08/pdf/obc-complete_01Jan10.pdf",
+  "license": "作者公开教学 PDF",
+  "goal": "把最优控制接到机器人轨迹跟踪",
+  "order": 3,
+  "out": "02_robot_modeling_control/books/Murray_OptimizationBasedControl_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/05_advanced_control/books/Murray_OptimizationBasedControl_en.pdf",
+   "source": "https://www.cds.caltech.edu/~murray/"
+  },
+  "cross": [
+   "01",
+   "05"
+  ],
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Optimization",
+    "Control"
+   ],
+   "min_pages": 100
+  },
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://www.cds.caltech.edu/~murray/books/AM08/pdf/obc-complete_01Jan10.pdf"
+ },
+ {
+  "id": "RA03B01",
+  "cat": "03",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Programming Computer Vision with Python",
+  "authors": "Jan Erik Solem",
+  "school": "",
+  "year": "2012",
+  "version": "CC draft（作者站点）",
+  "level": "本科/研究生入门",
+  "prereq": "Python、线性代数",
+  "topics": "图像处理、局部特征、多视几何入门、三维重建、聚类",
+  "source": "http://programmingcomputervision.com/",
+  "license": "CC 作者草稿",
+  "goal": "机器人视觉入门实践教材（OpenCV 前的算法视图）",
+  "order": 1,
+  "out": "03_perception/books/Solem_ProgrammingComputerVisionWithPython_CCdraft_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/books/Solem_ProgrammingComputerVisionWithPython_CCdraft_en.pdf",
+   "source": "http://programmingcomputervision.com/"
+  },
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "expect": {
+   "title_words": [
+    "Programming",
+    "Computer",
+    "Vision"
+   ],
+   "min_pages": 200
+  },
+  "use": "选读",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "http://programmingcomputervision.com/"
+ },
+ {
+  "id": "RA05B01",
+  "cat": "05",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Planning Algorithms",
+  "authors": "Steven M. LaValle",
+  "school": "University of Illinois Urbana-Champaign",
+  "year": "2006",
+  "version": "Cambridge 2006；作者站点 2012 电子版",
+  "level": "研究生",
+  "prereq": "算法、线性代数、基础概率",
+  "topics": "构型空间、采样规划、组合规划、决策理论、差动约束、运动规划",
+  "source": "https://lavalle.pl/planning/",
+  "license": "作者允许个人下载电子版；正式版 Cambridge",
+  "goal": "运动规划经典全书",
+  "order": 1,
+  "out": "05_planning_navigation/books/LaValle_PlanningAlgorithms_2006_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://lavalle.pl/planning/book.pdf",
+    "https://msl.cs.illinois.edu/~lavalle/planning/bookbig.pdf",
+    "http://lavalle.pl/planning/book.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Planning",
+    "Algorithms",
+    "LaValle"
+   ],
+   "min_pages": 500
+  },
+  "cross": [
+   "06"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://lavalle.pl/planning/"
+ },
+ {
+  "id": "RA04B03",
+  "cat": "04",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Factor Graphs for Robot Perception",
+  "authors": "Frank Dellaert; Michael Kaess",
+  "school": "Georgia Tech / Carnegie Mellon University",
+  "year": "2017",
+  "version": "Foundations and Trends in Robotics Vol. 6 (2017)",
+  "level": "研究生",
+  "prereq": "概率图模型或非线性最小二乘、刚体运动",
+  "topics": "因子图、SAM、稀疏消元、iSAM、Bayes tree、流形优化、SLAM",
+  "source": "https://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.html",
+  "license": "作者公开 PDF（Now Publishers 专著）",
+  "goal": "现代图优化 SLAM 的标准专著",
+  "order": 3,
+  "out": "04_localization_mapping/books/DellaertKaess_FactorGraphsRobotPerception_2017_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.pdf",
+    "https://dellaert.github.io/21S-8803MM/Readings/Dellaert17fnt.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Factor",
+    "Graphs",
+    "Robot",
+    "Perception"
+   ],
+   "min_pages": 100
+  },
+  "cross": [
+   "01"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.html"
+ },
+ {
+  "id": "RA04B04",
+  "cat": "04",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "SLAM Handbook: From Localization and Mapping to Spatial Intelligence",
+  "authors": "Luca Carlone; Ayoung Kim; Timothy D. Barfoot; Daniel Cremers; Frank Dellaert (eds.)",
+  "school": "MIT / SNU / University of Toronto / TUM / Georgia Tech",
+  "year": "2026",
+  "version": "public manuscript compiled 2026-04-21",
+  "level": "研究生",
+  "prereq": "概率机器人、刚体运动、非线性优化",
+  "topics": "因子图、流形、稠密建图、视觉/激光/雷达/IMU、回环、Spatial AI",
+  "source": "https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release",
+  "license": "Cambridge 即将出版；公开稿由编者公开释放",
+  "goal": "2026 年 SLAM 社区手册，覆盖基础到 Spatial AI",
+  "order": 4,
+  "out": "04_localization_mapping/books/CarloneEtAl_SLAMHandbook_2026_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "max_mb": 250,
+   "urls": [
+    "https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release/raw/main/main.pdf",
+    "https://asrl.utias.utoronto.ca/~tdb/slam/slamhandbook.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "SLAM",
+    "Handbook",
+    "Localization"
+   ],
+   "min_pages": 200
+  },
+  "cross": [
+   "03",
+   "09"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release"
+ },
+ {
+  "id": "RA05B02",
+  "cat": "05",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Algorithms for Decision Making",
+  "authors": "Mykel J. Kochenderfer; Tim A. Wheeler; Kyle H. Wray",
+  "school": "Stanford University",
+  "year": "2022",
+  "version": "MIT Press 2022；作者站点 PDF",
+  "level": "本科高年级/研究生",
+  "prereq": "多元微积分、线性代数、概率",
+  "topics": "MDP、近似动态规划、在线规划、模仿学习、POMDP、多智能体",
+  "source": "https://algorithmsbook.com/decisionmaking/",
+  "license": "CC BY-NC-ND",
+  "goal": "不确定决策与任务/运动规划算法教材",
+  "order": 2,
+  "out": "05_planning_navigation/books/Kochenderfer_AlgorithmsForDecisionMaking_2022_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "max_mb": 80,
+   "urls": [
+    "https://drive.usercontent.google.com/download?id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu&export=download",
+    "https://algorithmsbook.com/files/dm.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Algorithms",
+    "Decision",
+    "Making"
+   ],
+   "min_pages": 400
+  },
+  "cross": [
+   "07",
+   "08"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://algorithmsbook.com/decisionmaking/"
+ },
+ {
+  "id": "RA01B03",
+  "cat": "01",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Algorithms for Optimization",
+  "authors": "Mykel J. Kochenderfer; Tim A. Wheeler",
+  "school": "Stanford University",
+  "year": "2019",
+  "version": "MIT Press 2019；作者站点 PDF",
+  "level": "本科高年级/研究生",
+  "prereq": "多元微积分、线性代数",
+  "topics": "无约束/约束优化、一阶与二阶方法、采样、代理模型",
+  "source": "https://algorithmsbook.com/optimization/",
+  "license": "CC BY-NC-ND",
+  "goal": "轨迹优化与参数辨识所需的优化算法教材",
+  "order": 3,
+  "out": "01_mathematical_foundations/books/Kochenderfer_AlgorithmsForOptimization_2019_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "max_mb": 80,
+   "urls": [
+    "https://drive.usercontent.google.com/download?id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp&export=download",
+    "https://drive.usercontent.google.com/download?id=1qYjI1igDuBg3x884JKZaCWuJkgdPylHN&export=download",
+    "https://algorithmsbook.com/optimization/files/optimization.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Algorithms",
+    "Optimization"
+   ],
+   "min_pages": 300
+  },
+  "cross": [
+   "05"
+  ],
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://algorithmsbook.com/optimization/"
+ },
+ {
+  "id": "RA07B01",
+  "cat": "07",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Reinforcement Learning: An Introduction (2nd edition)",
+  "authors": "Richard S. Sutton; Andrew G. Barto",
+  "school": "University of Alberta / University of Massachusetts Amherst",
+  "year": "2018",
+  "version": "2nd ed. 2nd printing 2020 PDF (RLbook2020.pdf)",
+  "level": "本科高年级/研究生",
+  "prereq": "概率、线性代数、基础编程",
+  "topics": "MDP、动态规划、MC/TD、函数逼近、策略梯度、心理与神经科学联系",
+  "source": "http://incompleteideas.net/book/the-book-2nd.html",
+  "license": "作者公开 PDF；正式版 MIT Press",
+  "goal": "机器人强化学习的标准教材",
+  "order": 1,
+  "out": "07_learning_embodied_ai/books/SuttonBarto_ReinforcementLearning_2ndEd_2020_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "max_mb": 90,
+   "urls": [
+    "http://incompleteideas.net/book/RLbook2020.pdf",
+    "https://www.incompleteideas.net/book/RLbook2020.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Reinforcement",
+    "Learning",
+    "Sutton"
+   ],
+   "min_pages": 400
+  },
+  "cross": [
+   "05"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "http://incompleteideas.net/book/the-book-2nd.html"
+ },
+ {
+  "id": "RA01B04",
+  "cat": "01",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "A tutorial on SE(3) transformation parameterizations and on-manifold optimization",
+  "authors": "José-Luis Blanco-Claraco",
+  "school": "University of Almería",
+  "year": "2010",
+  "version": "technical report 2010 (rev. later on author site)",
+  "level": "研究生",
+  "prereq": "线性代数、刚体运动",
+  "topics": "旋转参数化、SE(3)、流形优化、李代数",
+  "source": "https://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf",
+  "license": "作者公开技术报告",
+  "goal": "SE(3) 参数化与流形优化的标准技术报告",
+  "order": 4,
+  "out": "01_mathematical_foundations/books/Blanco_SE3TransformationParameterizations_2010_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf",
+    "https://arxiv.org/pdf/2103.15980.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "transformation",
+    "manifold"
+   ],
+   "min_pages": 40,
+   "min_ratio": 0.4
+  },
+  "cross": [
+   "02",
+   "04"
+  ],
+  "use": "通读",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf"
+ },
+ {
+  "id": "RA05B03",
+  "cat": "05",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Introduction to Autonomous Robots (LibreTexts OER edition)",
+  "authors": "Nikolaus Correll",
+  "school": "University of Colorado Boulder",
+  "year": "2016",
+  "version": "LibreTexts compiled PDF（OER；非 MIT Press 2022 商业版）",
+  "level": "本科",
+  "prereq": "线性代数、基础概率、编程",
+  "topics": "运动学、路径规划、传感器、误差传播、定位、SLAM 入门",
+  "source": "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Introduction_to_Autonomous_Robots_(Correll)",
+  "license": "LibreTexts OER（原 CC 开放教材的 OER 再发布）",
+  "goal": "移动机器人本科入门开源教材（LibreTexts 版，不是 2022 年 MIT Press 商业版）",
+  "order": 3,
+  "out": "05_planning_navigation/books/Correll_IntroductionToAutonomousRobots_LibreTexts_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "max_mb": 80,
+   "urls": [
+    "https://batch.libretexts.org/print/Letter/Finished/eng-14766/Full.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Autonomous",
+    "Robots"
+   ],
+   "min_pages": 80
+  },
+  "cross": [
+   "04",
+   "02"
+  ],
+  "note": "MIT Press 2022 商业版作者声明不可公开张贴编译 PDF；此处仅收 LibreTexts 较早 OER 版",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Introduction_to_Autonomous_Robots_(Correll)"
+ },
+ {
+  "id": "RA02B04",
+  "cat": "02",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Robot Dynamics Lecture Notes (HS 2017)",
+  "authors": "Marco Hutter; Roland Siegwart; Robotic Systems Lab",
+  "school": "ETH Zurich",
+  "year": "2017",
+  "version": "HS 2017 lecture script",
+  "level": "研究生",
+  "prereq": "理论力学、线性代数",
+  "topics": "旋转与刚体、Jacobian、固定基/浮动基动力学、操作空间控制、足式机器人",
+  "source": "https://rsl.ethz.ch/education-students/lectures/robotdynamics.html",
+  "license": "ETH 课程公开讲义",
+  "goal": "机械臂与浮动基系统动力学建模讲义",
+  "order": 4,
+  "out": "02_robot_modeling_control/books/ETH_RobotDynamics_HS2017_script_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/RD_HS2017script.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Robot",
+    "Dynamics"
+   ],
+   "min_pages": 40
+  },
+  "cross": [
+   "01",
+   "06"
+  ],
+  "note": "讲义脚本按完整教材计一次；ETH 当前学期材料改在 Moodle，本文件为实验室公开的 2017 脚本",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://rsl.ethz.ch/education-students/lectures/robotdynamics.html"
+ },
+ {
+  "id": "RA10B01",
+  "cat": "10",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control",
+  "authors": "Steven L. Brunton; J. Nathan Kutz",
+  "school": "University of Washington",
+  "year": "2019",
+  "version": "作者公开 PDF",
+  "level": "研究生",
+  "prereq": "线性代数、微分方程",
+  "topics": "SVD、DMD、系统辨识、控制中的数据驱动方法",
+  "source": "http://databookuw.com/",
+  "license": "作者公开教学 PDF",
+  "goal": "系统辨识与数据驱动建模，服务仿真到现实",
+  "order": 1,
+  "out": "10_deployment_applications/books/Brunton_DataDrivenScienceEngineering_en.pdf",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/control_systems_automation_literature/06_learning_control/books/Brunton_DataDrivenScienceEngineering_en.pdf",
+   "source": "http://databookuw.com/"
+  },
+  "cross": [
+   "02"
+  ],
+  "note": "已有复用：control_systems_automation_literature",
+  "expect": {
+   "title_words": [
+    "Data",
+    "Driven",
+    "Science"
+   ],
+   "min_pages": 300
+  },
+  "use": "按需查阅",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "http://databookuw.com/"
+ },
+ {
+  "id": "RA01B05",
+  "cat": "01",
+  "type": "book",
+  "material": "教材/参考书",
+  "title": "Quaternion kinematics for the error-state Kalman filter",
+  "authors": "Joan Solà",
+  "school": "IRI / UPC",
+  "year": "2017",
+  "version": "arXiv 1711.02508",
+  "level": "研究生",
+  "prereq": "刚体运动、Kalman 滤波",
+  "topics": "四元数、误差状态、IMU 预积分、ESKF",
+  "source": "https://arxiv.org/abs/1711.02508",
+  "license": "arXiv 预印本",
+  "goal": "视觉惯性里程计广泛使用的误差状态 Kalman 教材级教程",
+  "order": 5,
+  "out": "01_mathematical_foundations/books/Sola_QuaternionKinematicsErrorStateKF_2017_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1711.02508.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Quaternion",
+    "kinematics",
+    "Kalman"
+   ],
+   "min_pages": 50
+  },
+  "cross": [
+   "04"
+  ],
+  "note": "篇幅达到专著级技术报告，按教材计一次",
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "https://arxiv.org/abs/1711.02508"
+ }
+]

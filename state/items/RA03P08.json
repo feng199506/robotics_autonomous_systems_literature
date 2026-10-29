@@ -1,0 +1,19 @@
+{
+ "id": "RA03P08",
+ "started": "2026-10-29T18:44:38Z",
+ "download_url": "https://arxiv.org/pdf/2403.20309.pdf",
+ "final_url": "https://arxiv.org/pdf/2403.20309",
+ "http_last_modified": "Tue, 08 Jul 2025 00:24:55 GMT",
+ "verify": "通过：pypdf 可解析 16 页；标题词匹配 1.0",
+ "info": {
+  "pages": 16,
+  "meta_title": "InstantSplat: Sparse-view Gaussian Splatting in Seconds",
+  "body_sample_chars": 16618,
+  "title_match": 1.0
+ },
+ "bytes": 8417471,
+ "sha256": "cd8415f171a0353126dcb1029126f48b805c3c24f65706bcc930c55dfc5dcc2e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:44:47Z"
+}

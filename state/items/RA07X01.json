@@ -1,0 +1,66 @@
+{
+ "id": "RA07X01",
+ "started": "2026-10-29T18:27:39Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/huggingface/lerobot.git",
+ "ref": "(默认分支)",
+ "commit": "38b975c5bca0db0ce11a65705419cca001c6dafa",
+ "commit_date": "2026-10-29T18:06:29+01:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "lerobot",
+  "examples",
+  "docs",
+  "pyproject.toml"
+ ],
+ "verify": "通过：197 个文件（HTML 0，文档源 134）",
+ "info": {
+  "files": 197,
+  "html": 0,
+  "md_rst_ipynb": 134,
+  "top_ext": [
+   [
+    "mdx",
+    100
+   ],
+   [
+    "py",
+    53
+   ],
+   [
+    "md",
+    32
+   ],
+   [
+    "json5",
+    3
+   ],
+   [
+    "yaml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "yml",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "huggingface_lerobot_src_en/LICENSE"
+  ]
+ },
+ "bytes": 2211840,
+ "sha256": "175f64c4b4c0765daf51f66822917f05d0efef282b616fad418c833dd375bde9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:41Z"
+}

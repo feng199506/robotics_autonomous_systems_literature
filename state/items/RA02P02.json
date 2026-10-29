@@ -1,0 +1,19 @@
+{
+ "id": "RA02P02",
+ "started": "2026-10-29T18:48:04Z",
+ "download_url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/515192049/CorberesThomasIEEEPerceptiveLocomotionReliableandautonomouslocomtion.pdf",
+ "final_url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/515192049/CorberesThomasIEEEPerceptiveLocomotionReliableandautonomouslocomtion.pdf",
+ "http_last_modified": "Thu, 29 Oct 2026 18:48:04 GMT",
+ "verify": "通过：pypdf 可解析 20 页；标题词匹配 1.0",
+ "info": {
+  "pages": 20,
+  "meta_title": "",
+  "body_sample_chars": 15742,
+  "title_match": 1.0
+ },
+ "bytes": 3840680,
+ "sha256": "e06354c959f5d7d5293675bbe00146aa6de993b5b1719a97f322196fa8e48228",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:48:05Z"
+}

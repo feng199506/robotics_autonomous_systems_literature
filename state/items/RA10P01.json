@@ -1,0 +1,19 @@
+{
+ "id": "RA10P01",
+ "started": "2026-10-29T18:35:26Z",
+ "download_url": "https://arxiv.org/pdf/2009.13303.pdf",
+ "final_url": "https://arxiv.org/pdf/2009.13303",
+ "http_last_modified": "Mon, 23 Jan 2023 06:52:38 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "",
+  "body_sample_chars": 19780,
+  "title_match": 1.0
+ },
+ "bytes": 623080,
+ "sha256": "5709cdf4d525e9a5bfa96010b3f7b2a91d4da89aeba489947701a5c3c1109e11",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:34Z"
+}

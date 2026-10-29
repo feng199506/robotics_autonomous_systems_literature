@@ -1,0 +1,19 @@
+{
+ "id": "RA08P02",
+ "started": "2026-10-29T18:40:38Z",
+ "download_url": "https://arxiv.org/pdf/2311.12871.pdf",
+ "final_url": "https://arxiv.org/pdf/2311.12871",
+ "http_last_modified": "Fri, 10 May 2024 01:09:51 GMT",
+ "verify": "通过：pypdf 可解析 39 页；标题词匹配 0.67",
+ "info": {
+  "pages": 39,
+  "meta_title": "An Embodied Generalist Agent in 3D World",
+  "body_sample_chars": 13445,
+  "title_match": 0.67
+ },
+ "bytes": 25687446,
+ "sha256": "317e19915ea00a4eccafed8640c82d0f1b36a4782c227b9a42c461b9431fd831",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:40:51Z"
+}

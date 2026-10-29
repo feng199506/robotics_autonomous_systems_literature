@@ -1,0 +1,685 @@
+[
+ {
+  "id": "RA09T01",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "ROS 2",
+  "title": "ROS 2 Jazzy — Concepts, Tutorials, How-to Guides (core)",
+  "authors": "Open Robotics / ROS 2 documentation contributors",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "Jazzy Jalisco 文档站点当前版（检索日）",
+  "level": "本科/工程",
+  "prereq": "Linux、Python 或 C++ 基础",
+  "topics": "节点、话题、服务、动作、参数、生命周期、tf2、rosbag2 录制回放",
+  "source": "https://docs.ros.org/en/jazzy/",
+  "license": "ROS 2 文档许可（项目官方）",
+  "goal": "ROS 2 通信、坐标变换、录制回放的官方入门与核心概念",
+  "order": 1,
+  "out": "09_software_simulation/tools/ROS2_Jazzy_ConceptsTutorials_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.ros.org/en/jazzy/Concepts.html",
+    "https://docs.ros.org/en/jazzy/Tutorials.html",
+    "https://docs.ros.org/en/jazzy/How-To-Guides.html",
+    "https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html",
+    "https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries.html",
+    "https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Tf2/Tf2-Main.html",
+    "https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html",
+    "https://docs.ros.org/en/jazzy/Concepts/Basic/About-ROS-2-Client-Libraries.html",
+    "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Tf2.html",
+    "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Parameters.html",
+    "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Lifecycle.html"
+   ],
+   "domains": [
+    "docs.ros.org"
+   ],
+   "include": [
+    "/en/jazzy"
+   ],
+   "level": "3",
+   "quota_mb": 120,
+   "timeout": 2400,
+   "wait": 0.4,
+   "exclude": [
+    "/en/jazzy/p/",
+    "/en/jazzy/Installation/Releases"
+   ]
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "Jazzy：Concepts、Tutorials（CLI/客户端库/tf2/录制回放）、How-to 索引及一级页面；不含发行版安装包、完整 API 参考历史版本",
+  "note": "ROS 2 LTS 取 Jazzy（2024-05 至 2029-05）。Humble 仍在维护但不作本包主体。不收 ROS 1。",
+  "stack": "ROS 2 Jazzy",
+  "lang": "en",
+  "cross": [],
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://docs.ros.org/en/jazzy/"
+ },
+ {
+  "id": "RA09T02",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Gazebo",
+  "title": "Gazebo documentation (Harmonic / current docs hub)",
+  "authors": "Open Robotics / Gazebo contributors",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "gazebosim.org/docs 当前版",
+  "level": "本科/工程",
+  "prereq": "ROS 2 基础或独立仿真概念",
+  "topics": "世界、模型、传感器、插件、与 ROS 2 桥接",
+  "source": "https://gazebosim.org/docs",
+  "license": "项目官方文档",
+  "goal": "Gazebo 仿真官方用户指南（入门与核心概念）",
+  "order": 2,
+  "out": "09_software_simulation/tools/Gazebo_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://gazebosim.org/docs",
+    "https://gazebosim.org/docs/harmonic/getstarted",
+    "https://gazebosim.org/docs/harmonic/overview"
+   ],
+   "domains": [
+    "gazebosim.org"
+   ],
+   "include": [
+    "/docs"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "文档中心与 Harmonic 入门/概览及一级链接；不含大型场景资源",
+  "stack": "Gazebo Harmonic（与 ROS 2 Jazzy 配对）",
+  "note": "Garden 已结束。Ionic 对应 Kilted。本包以 Harmonic/Jazzy 配对为主。",
+  "lang": "en",
+  "cross": [],
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://gazebosim.org/docs"
+ },
+ {
+  "id": "RA09T03",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "MuJoCo",
+  "title": "MuJoCo documentation (Read the Docs current)",
+  "authors": "Google DeepMind",
+  "school": "Google DeepMind",
+  "year": "2026",
+  "version": "mujoco.readthedocs.io 当前稳定文档",
+  "level": "研究生/工程",
+  "prereq": "刚体动力学概念、Python 或 C",
+  "topics": "MJCF、仿真步进、接触、传感器、Python 绑定、可视化",
+  "source": "https://mujoco.readthedocs.io/",
+  "license": "项目官方文档",
+  "goal": "MuJoCo 用户指南与核心 API 说明",
+  "order": 3,
+  "out": "09_software_simulation/tools/MuJoCo_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://mujoco.readthedocs.io/en/stable/",
+    "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "https://mujoco.readthedocs.io/en/stable/programming.html",
+    "https://mujoco.readthedocs.io/en/stable/python.html",
+    "https://mujoco.readthedocs.io/en/stable/XMLreference.html"
+   ],
+   "domains": [
+    "mujoco.readthedocs.io"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "stable 文档：概述、编程、Python、XML 参考及一级页面",
+  "stack": "MuJoCo",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://mujoco.readthedocs.io/"
+ },
+ {
+  "id": "RA09T04",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Isaac Lab",
+  "title": "Isaac Lab documentation (current GitHub Pages)",
+  "authors": "NVIDIA",
+  "school": "NVIDIA",
+  "year": "2026",
+  "version": "isaac-sim.github.io/IsaacLab 当前版",
+  "level": "研究生/工程",
+  "prereq": "Python、强化学习或机器人仿真基础",
+  "topics": "环境、任务、域随机化、训练工作流、与 Isaac Sim 关系",
+  "source": "https://isaac-sim.github.io/IsaacLab/",
+  "license": "项目官方文档",
+  "goal": "Isaac Lab 用户指南（仿真训练框架，不是 Isaac Sim 安装包）",
+  "order": 4,
+  "out": "09_software_simulation/tools/IsaacLab_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://isaac-sim.github.io/IsaacLab/main/index.html",
+    "https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html",
+    "https://isaac-sim.github.io/IsaacLab/main/source/tutorials/index.html",
+    "https://isaac-sim.github.io/IsaacLab/main/source/overview/index.html"
+   ],
+   "domains": [
+    "isaac-sim.github.io"
+   ],
+   "include": [
+    "/IsaacLab"
+   ],
+   "level": "3",
+   "quota_mb": 100,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "Isaac Lab 文档站点入门、安装说明、教程与概述；不含 Isaac Sim 安装包、资源包、模型权重",
+  "stack": "Isaac Lab / Isaac Sim",
+  "note": "Isaac Sim 是仿真应用，Isaac Lab 是基于其上的学习/任务框架。不下载软件本体。",
+  "cross": [
+   "07",
+   "10"
+  ],
+  "lang": "en",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://isaac-sim.github.io/IsaacLab/"
+ },
+ {
+  "id": "RA09T05",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "MoveIt 2",
+  "title": "MoveIt 2 documentation and tutorials (main)",
+  "authors": "PickNik / MoveIt maintainers",
+  "school": "PickNik Robotics",
+  "year": "2026",
+  "version": "moveit.picknik.ai/main 当前版",
+  "level": "本科高年级/工程",
+  "prereq": "ROS 2、机械臂运动学概念",
+  "topics": "运动规划、规划场景、运动学插件、与 ros2_control 接口",
+  "source": "https://moveit.picknik.ai/main/index.html",
+  "license": "项目官方文档",
+  "goal": "MoveIt 2 用户指南与教程（ROS 2，不是 MoveIt 1）",
+  "order": 5,
+  "out": "09_software_simulation/tools/MoveIt2_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://moveit.picknik.ai/main/index.html",
+    "https://moveit.picknik.ai/main/doc/tutorials/tutorials.html",
+    "https://moveit.picknik.ai/main/doc/concepts/concepts.html"
+   ],
+   "domains": [
+    "moveit.picknik.ai"
+   ],
+   "include": [
+    "/main"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "MoveIt 2 main 文档的概念与教程；不含 MoveIt 1",
+  "stack": "MoveIt 2 + ROS 2",
+  "cross": [
+   "05",
+   "06"
+  ],
+  "lang": "en",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://moveit.picknik.ai/main/index.html"
+ },
+ {
+  "id": "RA09T06",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Nav2",
+  "title": "Nav2 documentation (current)",
+  "authors": "Open Navigation / Nav2 maintainers",
+  "school": "Open Navigation",
+  "year": "2026",
+  "version": "docs.nav2.org 当前版",
+  "level": "本科高年级/工程",
+  "prereq": "ROS 2、移动机器人导航概念",
+  "topics": "行为树导航、代价地图、规划器、控制器、定位、路线图",
+  "source": "https://docs.nav2.org/",
+  "license": "项目官方文档",
+  "goal": "Nav2 用户指南与核心概念（ROS 2 导航栈）",
+  "order": 6,
+  "out": "09_software_simulation/tools/Nav2_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.nav2.org/",
+    "https://docs.nav2.org/concepts/index.html",
+    "https://docs.nav2.org/tutorials/index.html",
+    "https://docs.nav2.org/configuration/index.html",
+    "https://docs.nav2.org/plugin_tutorials/index.html"
+   ],
+   "domains": [
+    "docs.nav2.org"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "概念、教程、配置与插件教程；不含仿真地图数据包",
+  "stack": "Nav2 + ROS 2",
+  "cross": [
+   "05"
+  ],
+  "lang": "en",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://docs.nav2.org/"
+ },
+ {
+  "id": "RA09T07",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Pinocchio",
+  "title": "Pinocchio documentation (current)",
+  "authors": "Guilhem Saurel; Justin Carpentier; et al. (Stack of Tasks / Inria)",
+  "school": "Inria / Stack of Tasks",
+  "year": "2026",
+  "version": "stack-of-tasks.github.io/pinocchio 当前版",
+  "level": "研究生/工程",
+  "prereq": "刚体动力学、C++ 或 Python",
+  "topics": "刚体算法、正逆动力学、导数、URDF、Python 绑定",
+  "source": "https://stack-of-tasks.github.io/pinocchio/",
+  "license": "项目官方文档",
+  "goal": "Pinocchio 刚体动力学库用户指南",
+  "order": 7,
+  "out": "09_software_simulation/tools/Pinocchio_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://stack-of-tasks.github.io/pinocchio/",
+    "https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/"
+   ],
+   "domains": [
+    "stack-of-tasks.github.io",
+    "gepettoweb.laas.fr"
+   ],
+   "span": true,
+   "level": "2",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 5,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "项目主页与 Doxygen 入门/模块页；完整 API 不无限抓取历史版本",
+  "stack": "Pinocchio",
+  "cross": [
+   "01",
+   "02"
+  ],
+  "lang": "en",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://stack-of-tasks.github.io/pinocchio/"
+ },
+ {
+  "id": "RA09T08",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Drake",
+  "title": "Drake documentation (current)",
+  "authors": "Russ Tedrake; Robot Locomotion Group / TRI",
+  "school": "MIT / Toyota Research Institute",
+  "year": "2026",
+  "version": "drake.mit.edu 当前版",
+  "level": "研究生/工程",
+  "prereq": "Python 或 C++、刚体动力学、优化",
+  "topics": "多体、轨迹优化、系统框架、传感器、仿真",
+  "source": "https://drake.mit.edu/",
+  "license": "项目官方文档",
+  "goal": "Drake 模型基设计与仿真用户指南",
+  "order": 8,
+  "out": "09_software_simulation/tools/Drake_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://drake.mit.edu/",
+    "https://drake.mit.edu/getting_started.html",
+    "https://drake.mit.edu/python_bindings.html",
+    "https://drake.mit.edu/doxygen_cxx/index.html"
+   ],
+   "domains": [
+    "drake.mit.edu"
+   ],
+   "level": "2",
+   "quota_mb": 100,
+   "timeout": 1800,
+   "wait": 0.4,
+   "exclude": [
+    "/pydrake",
+    "/doxygen_cxx/class",
+    "/doxygen_cxx/struct"
+   ]
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "入门、Python 绑定、Doxygen 索引；不含完整逐类 API 无限展开",
+  "stack": "Drake",
+  "cross": [
+   "02",
+   "06"
+  ],
+  "lang": "en",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://drake.mit.edu/"
+ },
+ {
+  "id": "RA03T01",
+  "cat": "03",
+  "type": "docs",
+  "material": "官方文档",
+  "tool": "OpenCV",
+  "title": "OpenCV 5.0.0 官方文档（Doxygen HTML 包）",
+  "authors": "OpenCV team",
+  "school": "OpenCV",
+  "year": "2026",
+  "version": "5.0.0",
+  "level": "本科/工程",
+  "prereq": "Python 或 C++",
+  "topics": "图像处理、标定、特征、视频、DNN 模块",
+  "source": "https://docs.opencv.org/5.0.0/",
+  "license": "Apache-2.0",
+  "goal": "机器人感知常用视觉库完整官方文档包",
+  "order": 1,
+  "out": "03_perception/tools/opencv_5.0.0_docs_html_en.zip",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/programming_reference_literature/official_docs/opencv_5.0.0_docs_html_en.zip",
+   "source": "https://github.com/opencv/opencv/releases/download/5.0.0/opencv-5.0.0-docs.zip"
+  },
+  "note": "已有复用：programming_reference_literature",
+  "stack": "OpenCV 5.0.0",
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://docs.opencv.org/5.0.0/"
+ },
+ {
+  "id": "RA04T01",
+  "cat": "04",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "GTSAM",
+  "title": "GTSAM documentation (current)",
+  "authors": "Frank Dellaert; Georgia Tech / borglab",
+  "school": "Georgia Institute of Technology",
+  "year": "2026",
+  "version": "gtsam.org 当前版",
+  "level": "研究生/工程",
+  "prereq": "因子图概念、C++ 或 Python",
+  "topics": "因子图、非线性优化、IMU、SLAM 示例",
+  "source": "https://gtsam.org/",
+  "license": "BSD（库）；文档随项目",
+  "goal": "GTSAM 用户指南与入门",
+  "order": 1,
+  "out": "04_localization_mapping/tools/GTSAM_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://gtsam.org/",
+    "https://gtsam.org/get_started/",
+    "https://gtsam.org/tutorials/intro.html",
+    "https://gtsam-jlblanco-docs.readthedocs.io/en/latest/"
+   ],
+   "domains": [
+    "gtsam.org",
+    "gtsam-jlblanco-docs.readthedocs.io"
+   ],
+   "span": true,
+   "level": "3",
+   "quota_mb": 60,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 5,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "官方站点入门/教程及社区 ReadTheDocs 导引",
+  "stack": "GTSAM",
+  "cross": [
+   "01"
+  ],
+  "lang": "en",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://gtsam.org/"
+ },
+ {
+  "id": "RA05T01",
+  "cat": "05",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "OMPL",
+  "title": "OMPL documentation (current)",
+  "authors": "Kavraki Lab / OMPL developers",
+  "school": "Rice University",
+  "year": "2026",
+  "version": "ompl.kavrakilab.org 当前版",
+  "level": "研究生/工程",
+  "prereq": "运动规划概念、C++",
+  "topics": "采样规划、状态空间、规划器、基准",
+  "source": "https://ompl.kavrakilab.org/",
+  "license": "项目官方文档",
+  "goal": "OMPL 运动规划库用户指南",
+  "order": 1,
+  "out": "05_planning_navigation/tools/OMPL_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://ompl.kavrakilab.org/",
+    "https://ompl.kavrakilab.org/core/api_overview.html",
+    "https://ompl.kavrakilab.org/core/education.html",
+    "https://ompl.kavrakilab.org/gui.html"
+   ],
+   "domains": [
+    "ompl.kavrakilab.org"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "核心概述、API 概览、教学与 GUI 文档",
+  "stack": "OMPL",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://ompl.kavrakilab.org/"
+ },
+ {
+  "id": "RA03T02",
+  "cat": "03",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Open3D",
+  "title": "Open3D documentation (current)",
+  "authors": "Intel ISL / Open3D team",
+  "school": "Intel ISL",
+  "year": "2026",
+  "version": "www.open3d.org/docs 当前稳定版",
+  "level": "本科高年级/工程",
+  "prereq": "Python、点云概念",
+  "topics": "点云、网格、可视化、配准、重建",
+  "source": "https://www.open3d.org/docs/",
+  "license": "项目官方文档",
+  "goal": "Open3D 点云与三维处理用户指南",
+  "order": 2,
+  "out": "03_perception/tools/Open3D_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://www.open3d.org/docs/release/",
+    "https://www.open3d.org/docs/release/getting_started.html",
+    "https://www.open3d.org/docs/release/tutorial/index.html",
+    "https://www.open3d.org/docs/release/python_api/index.html"
+   ],
+   "domains": [
+    "www.open3d.org"
+   ],
+   "include": [
+    "/docs/release"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "timeout": 1800,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "release 文档：入门、教程、Python API 索引；不含数据集",
+  "stack": "Open3D",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://www.open3d.org/docs/"
+ },
+ {
+  "id": "RA09T09",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 PDF 用户指南",
+  "tool": "ros2_control",
+  "title": "ros2_control documentation (Rolling PDF export)",
+  "authors": "ros-controls / Open Robotics",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "control.ros.org/rolling PDF，检索日 2026-10-30",
+  "level": "本科/工程",
+  "prereq": "ROS 2 概念",
+  "topics": "Controller Manager、硬件接口、控制器、链式控制",
+  "source": "https://control.ros.org/rolling/downloads/ros2_control_rolling.pdf",
+  "license": "项目官方文档",
+  "goal": "ros2_control 官方用户指南 PDF（与 Jazzy 同架构；Rolling 导出）",
+  "order": 3,
+  "out": "09_software_simulation/tools/ros2_control_Rolling_Docs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://control.ros.org/rolling/downloads/ros2_control_rolling.pdf"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "ros2_control"
+   ],
+   "min_pages": 20,
+   "min_ratio": 0.4
+  },
+  "complete": "部分",
+  "scope": "Rolling 文档 PDF 导出：入门与架构；不是发行版安装包。Jazzy 无同名 PDF，架构与 Jazzy 共用。",
+  "note": "Jazzy HTML 站点无独立 PDF；本文件为官方 Rolling 导出。实践示例见 RA09X02。",
+  "stack": "ros2_control",
+  "lang": "en",
+  "cross": [],
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://control.ros.org/rolling/"
+ }
+]

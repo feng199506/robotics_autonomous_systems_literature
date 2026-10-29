@@ -1,0 +1,19 @@
+{
+ "id": "RA04B04",
+ "started": "2026-10-29T18:22:03Z",
+ "download_url": "https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release/raw/main/main.pdf",
+ "final_url": "https://raw.githubusercontent.com/SLAM-Handbook-contributors/slam-handbook-public-release/main/main.pdf",
+ "http_last_modified": "",
+ "verify": "通过：pypdf 可解析 669 页；标题词匹配 1.0",
+ "info": {
+  "pages": 669,
+  "meta_title": "From Localization and Mapping to Spatial Intelligence",
+  "body_sample_chars": 10219,
+  "title_match": 1.0
+ },
+ "bytes": 16928683,
+ "sha256": "c3ace0523451ff40c91f89c56758b3bd9b240160d4470f07ce0648aaa5e14f2e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:05Z"
+}

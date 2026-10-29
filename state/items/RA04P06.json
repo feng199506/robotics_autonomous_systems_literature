@@ -1,0 +1,19 @@
+{
+ "id": "RA04P06",
+ "started": "2026-10-29T18:36:16Z",
+ "download_url": "https://arxiv.org/pdf/2412.12392.pdf",
+ "final_url": "https://arxiv.org/pdf/2412.12392",
+ "http_last_modified": "Fri, 13 Jun 2025 23:51:41 GMT",
+ "verify": "通过：pypdf 可解析 15 页；标题词匹配 1.0",
+ "info": {
+  "pages": 15,
+  "meta_title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+  "body_sample_chars": 14192,
+  "title_match": 1.0
+ },
+ "bytes": 3216563,
+ "sha256": "b3e4adb81aa713bc091a9e9d9a28d96881000f04931f0fea23f3d5c758436760",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:22Z"
+}

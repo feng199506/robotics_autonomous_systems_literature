@@ -1,0 +1,19 @@
+{
+ "id": "RA02P05",
+ "started": "2026-10-29T18:44:14Z",
+ "download_url": "https://arxiv.org/pdf/2404.10665.pdf",
+ "final_url": "https://arxiv.org/pdf/2404.10665",
+ "http_last_modified": "Wed, 26 Nov 2025 01:57:48 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 0.5",
+ "info": {
+  "pages": 8,
+  "meta_title": "Iterated Invariant Extended Kalman Filter (IterIEKF)",
+  "body_sample_chars": 14489,
+  "title_match": 0.5
+ },
+ "bytes": 426019,
+ "sha256": "654ace38e1c801e494707890c4c005bd65a5fb2abfd68ac3953913b427075575",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:44:22Z"
+}

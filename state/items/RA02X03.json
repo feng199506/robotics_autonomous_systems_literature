@@ -1,0 +1,65 @@
+{
+ "id": "RA02X03",
+ "started": "2026-10-29T18:27:23Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/stack-of-tasks/pinocchio.git",
+ "ref": "(默认分支)",
+ "commit": "f3b3953babbc65f9c91f294f956836ee5a6c9d0e",
+ "commit_date": "2026-10-21T11:29:50+02:00",
+ "sparse_paths": [
+  "README.md",
+  "COPYING.LESSER",
+  "LICENSE",
+  "examples",
+  "doc"
+ ],
+ "verify": "通过：178 个文件（HTML 1，文档源 55）",
+ "info": {
+  "files": 178,
+  "html": 1,
+  "md_rst_ipynb": 55,
+  "top_ext": [
+   [
+    "py",
+    72
+   ],
+   [
+    "md",
+    48
+   ],
+   [
+    "cpp",
+    23
+   ],
+   [
+    "gif",
+    6
+   ],
+   [
+    "txt",
+    5
+   ],
+   [
+    "bib",
+    4
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "pdf",
+    2
+   ]
+  ],
+  "license_files": [
+   "pinocchio_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 4055040,
+ "sha256": "6149b299d7c647f728595fd346b3ec69a96c3ae3b42c3da0f520cd542abbd1b5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:25Z"
+}

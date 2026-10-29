@@ -1,0 +1,63 @@
+{
+ "id": "RA06X02",
+ "started": "2026-10-29T18:27:15Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/moveit/moveit2_tutorials.git",
+ "ref": "(默认分支)",
+ "commit": "e1b3727d4bbd22a57f17120ec423a4171f4bdc66",
+ "commit_date": "2026-09-16T10:25:17+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "doc"
+ ],
+ "verify": "通过：432 个文件（HTML 0，文档源 126）",
+ "info": {
+  "files": 432,
+  "html": 0,
+  "md_rst_ipynb": 126,
+  "top_ext": [
+   [
+    "png",
+    152
+   ],
+   [
+    "rst",
+    86
+   ],
+   [
+    "cpp",
+    42
+   ],
+   [
+    "txt",
+    38
+   ],
+   [
+    "py",
+    33
+   ],
+   [
+    "gif",
+    19
+   ],
+   [
+    "rviz",
+    17
+   ],
+   [
+    "yaml",
+    12
+   ]
+  ],
+  "license_files": [
+   "moveit2_tutorials_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 83896320,
+ "sha256": "579615258cd51a5b48e166e396693b4dc6008f26b88760de4011599bed964579",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:20Z"
+}

@@ -1,0 +1,8 @@
+{
+ "id": "RA08P05",
+ "started": "2026-10-29T18:42:06Z",
+ "error": "https://arxiv.org/pdf/2402.11734.pdf: 标题词匹配率 0.33 过低 | https://export.arxiv.org/pdf/2402.11734.pdf: 标题词匹配率 0.33 过低",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:42:22Z"
+}

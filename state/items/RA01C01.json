@@ -1,0 +1,15 @@
+{
+ "id": "RA01C01",
+ "started": "2026-10-29T18:25:24Z",
+ "download_url": "https://www.cs.cmu.edu/~me/courses/811/notes/handouts.html",
+ "verify": "通过：15 个文件均可解析（PDF 共 517 页）",
+ "info": {
+  "chapters": 15,
+  "pages": 517,
+  "skipped": 0
+ },
+ "bytes": 37693822,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:26:07Z"
+}

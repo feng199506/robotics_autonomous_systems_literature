@@ -1,0 +1,67 @@
+{
+ "id": "RA05X03",
+ "started": "2026-10-29T18:27:31Z",
+ "dropped_large_files": [
+  "ompl_demos_en/doc/images/frontpage/capt_demo.gif (42483 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://github.com/ompl/ompl.git",
+ "ref": "(默认分支)",
+ "commit": "66ef68164bd43ebed3d481a351121cbcce4d4da9",
+ "commit_date": "2026-10-28T18:26:20-05:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "demos",
+  "doc"
+ ],
+ "verify": "通过：250 个文件（HTML 2，文档源 58）",
+ "info": {
+  "files": 250,
+  "html": 2,
+  "md_rst_ipynb": 58,
+  "top_ext": [
+   [
+    "cpp",
+    55
+   ],
+   [
+    "md",
+    46
+   ],
+   [
+    "png",
+    33
+   ],
+   [
+    "h",
+    31
+   ],
+   [
+    "py",
+    27
+   ],
+   [
+    "jpg",
+    10
+   ],
+   [
+    "tex",
+    7
+   ],
+   [
+    "gif",
+    6
+   ]
+  ],
+  "license_files": [
+   "ompl_demos_en/LICENSE",
+   "ompl_demos_en/doc/markdown/license.md"
+  ]
+ },
+ "bytes": 40519680,
+ "sha256": "863b9bf58ece34437f585cd80fb77515292f19ace3166f0a7085af3c3db0e163",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:36Z"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "RA02C02",
+ "started": "2026-10-29T18:24:46Z",
+ "download_url": "https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005/2.12-fall-2005.zip",
+ "final_url": "https://ocw.mit.edu/courses/2-12-introduction-to-robotics-fall-2005/2.12-fall-2005.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 14:03:48 GMT",
+ "verify": "通过：327 个文件（HTML 49，文档源 3）",
+ "info": {
+  "files": 327,
+  "html": 49,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "js",
+    92
+   ],
+   [
+    "json",
+    62
+   ],
+   [
+    "html",
+    49
+   ],
+   [
+    "pdf",
+    29
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "map",
+    9
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ]
+ },
+ "bytes": 30049155,
+ "sha256": "2fe7eaad2fca94315296141dee16a2a93c101c464f0d691fbe24d4cba8bd82ca",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:24:49Z"
+}

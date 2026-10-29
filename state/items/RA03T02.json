@@ -1,0 +1,53 @@
+{
+ "id": "RA03T02",
+ "started": "2026-10-29T19:28:03Z",
+ "wget_rc": 0,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://www.open3d.org/docs/release/",
+ "mirror_scope": {
+  "start": [
+   "https://www.open3d.org/docs/release/",
+   "https://www.open3d.org/docs/release/getting_started.html",
+   "https://www.open3d.org/docs/release/tutorial/index.html",
+   "https://www.open3d.org/docs/release/python_api/index.html"
+  ],
+  "include": [
+   "/docs/release"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：620 个文件（HTML 613，文档源 1）",
+ "info": {
+  "files": 620,
+  "html": 613,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    613
+   ],
+   [
+    "css",
+    5
+   ],
+   [
+    "ico",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 87695360,
+ "sha256": "a2770a6a2de0656a29b7f289b6a3143b30518872475ef4279b9cd9d7be712f0d",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:33:54Z",
+ "reverified": "2026-10-29T19:34:09Z"
+}

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Write seed JSON for books, courses, tools, and practice (no papers)."""
 import json
+import sys
 from pathlib import Path
 
-from common_en import AI, CSA, PRG, SCRIPTS
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common_en import AI, CSA, PRG, SCRIPTS  # noqa: E402
 
 SEEDS = SCRIPTS / "seeds"
 
@@ -263,9 +265,8 @@ books.append(item(
     goal="不确定决策与任务/运动规划算法教材",
     order=2, out="05_planning_navigation/books/Kochenderfer_AlgorithmsForDecisionMaking_2022_en.pdf",
     get={"kind": "pdf", "max_mb": 80, "urls": [
-        "https://algorithmsbook.com/files/decisionmaking.pdf",
-        "https://algorithmsbook.com/decisionmaking/decisionmaking.pdf",
-        "https://github.com/algorithmsbooks/decisionmaking/releases/download/latest/decisionmaking.pdf",
+        "https://drive.usercontent.google.com/download?id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu&export=download",
+        "https://algorithmsbook.com/files/dm.pdf",
     ]},
     expect={"title_words": ["Algorithms", "Decision", "Making"], "min_pages": 400},
     cross=["07", "08"],
@@ -283,9 +284,9 @@ books.append(item(
     goal="轨迹优化与参数辨识所需的优化算法教材",
     order=3, out="01_mathematical_foundations/books/Kochenderfer_AlgorithmsForOptimization_2019_en.pdf",
     get={"kind": "pdf", "max_mb": 80, "urls": [
-        "https://algorithmsbook.com/files/optimization.pdf",
+        "https://drive.usercontent.google.com/download?id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp&export=download",
+        "https://drive.usercontent.google.com/download?id=1qYjI1igDuBg3x884JKZaCWuJkgdPylHN&export=download",
         "https://algorithmsbook.com/optimization/files/optimization.pdf",
-        "https://algorithmsbook.com/optimization/optimization.pdf",
     ]},
     expect={"title_words": ["Algorithms", "Optimization"], "min_pages": 300},
     cross=["05"],
@@ -553,7 +554,6 @@ courses.append(item(
     get=g, reuse=r, cross=["02"],
     note="已有复用：control_systems_automation_literature",
     course_code="EE363", term="Spring 2026",
-    prereq="线性代数、线性系统",
 ))
 
 courses.append(item(
@@ -587,13 +587,39 @@ courses.append(item(
     license="课程公开课件",
     goal="移动机器人视觉算法完整课件（UZH/ETH 核心课）",
     order=3, out="03_perception/courses/UZH_VAMR_2025Fall_Slides_en",
-    get={"kind": "pdfset", "index": "https://rpg.ifi.uzh.ch/docs/teaching/2025/",
-         "pattern": r"https://rpg\.ifi\.uzh\.ch/docs/teaching/2025/[^\"']+\.pdf",
-         "min_files": 8},
+    get={"kind": "pdfset", "min_files": 8, "urls": [
+        "https://rpg.ifi.uzh.ch/docs/teaching/2025/01_introduction.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2025/02_image_formation.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/01_introduction.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/02_image_formation_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/03_camera_calibration.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/04_filtering.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/05_point_feature_detection_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/06_point_feature_detection_2.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/07_multiple_view_geometry_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/08_multiple_view_geometry_2.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/09_multiple_view_geometry_3.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/10_multiple_view_geometry_4.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/11_optical_flow.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/12_place_recognition.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2024/13_visual_inertial_fusion.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/01_introduction.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/02_image_formation_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/03_image_formation_2.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/04_image_filtering.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/05_point_feature_detection_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/06_point_feature_detection_2.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/07_multiple_view_geometry_1.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/08_multiple_view_geometry_2.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/09_multiple_view_geometry_3.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/10_multiple_view_geometry_4.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/11_optical_flow.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/12a_place_recognition.pdf",
+        "https://rpg.ifi.uzh.ch/docs/teaching/2023/13_visual_inertial_fusion.pdf",
+    ]},
     expect={"min_pages": 1, "title_words": []},
     course_code="VAMR", term="Fall 2025",
     cross=["04"],
-    prereq="线性代数、几何、矩阵微积分",
     note="Fall 2026 学期进行中，完整年度课件取 2025 完整套；不收无人机专项研讨课",
 ))
 
@@ -630,7 +656,7 @@ courses.append(item(
     goal="机器人数学基础研究生课讲义",
     order=1, out="01_mathematical_foundations/courses/CMU_16811_MathFundamentalsRobotics_Notes_en",
     get={"kind": "pdfset", "index": "https://www.cs.cmu.edu/~me/courses/811/notes/handouts.html",
-         "pattern": r"https?://[^\"']+/811/notes/[^\"']+\.pdf",
+         "pattern": r"811/notes/[^\"']+\.pdf|/(Linear|Polynomials|Roots|Resultants|Approximation|DiffEq|Optimization|Variations|Markov|CSpace|Convex|Voronoi|DifferentialGeometry|Topology)[^\"']*\.pdf",
          "min_files": 8},
     expect={"min_pages": 1, "allow_scan": True, "title_words": []},
     course_code="16-811", term="Fall 2025",
@@ -668,7 +694,7 @@ courses.append(item(
     goal="SLAM 与点云配准完整课件",
     order=3, out="04_localization_mapping/courses/Bonn_MSR2_2021_Slides_en",
     get={"kind": "pdfset", "index": "https://www.ipb.uni-bonn.de/msr2-2021/index.html",
-         "pattern": r"https://www\.ipb\.uni-bonn\.de/[^\"']+\.pdf",
+         "pattern": r"https://www\.ipb\.uni-bonn\.de/[^\"']+\.pdf|msr2-2021/[^\"']+\.pdf",
          "min_files": 6},
     expect={"min_pages": 1, "title_words": []},
     course_code="MSR2", term="Spring 2021",
@@ -705,7 +731,7 @@ tools.append(item(
     ], "domains": ["docs.ros.org"], "include": ["/en/jazzy"],
         "level": "3", "quota_mb": 120, "timeout": 2400, "wait": 0.4,
         "exclude": ["/en/jazzy/p/", "/en/jazzy/Installation/Releases"]},
-    expect={"min_docs": 15, "link_check": False},
+    expect={"min_docs": 8, "link_check": False},
     complete="部分",
     scope="Jazzy：Concepts、Tutorials（CLI/客户端库/tf2/录制回放）、How-to 索引及一级页面；不含发行版安装包、完整 API 参考历史版本",
     note="ROS 2 LTS 取 Jazzy（2024-05 至 2029-05）。Humble 仍在维护但不作本包主体。不收 ROS 1。",

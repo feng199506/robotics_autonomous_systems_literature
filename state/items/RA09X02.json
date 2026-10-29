@@ -1,0 +1,61 @@
+{
+ "id": "RA09X02",
+ "started": "2026-10-29T18:27:38Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ros-controls/ros2_control_demos.git",
+ "ref": "(默认分支)",
+ "commit": "70b9edc614165259866f565db81ce819b116fc9d",
+ "commit_date": "2026-10-17T15:09:57+02:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：403 个文件（HTML 0，文档源 57）",
+ "info": {
+  "files": 403,
+  "html": 0,
+  "md_rst_ipynb": 57,
+  "top_ext": [
+   [
+    "py",
+    105
+   ],
+   [
+    "xacro",
+    43
+   ],
+   [
+    "xml",
+    42
+   ],
+   [
+    "yaml",
+    38
+   ],
+   [
+    "yml",
+    21
+   ],
+   [
+    "cpp",
+    20
+   ],
+   [
+    "md",
+    19
+   ],
+   [
+    "rst",
+    19
+   ]
+  ],
+  "license_files": [
+   "ros2_control_demos_en/LICENSE"
+  ]
+ },
+ "bytes": 8499200,
+ "sha256": "e25a382f90528fbe19fe317ad55e5ad6bd1a8f2a989649deae2d439e2e76afb5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:39Z"
+}

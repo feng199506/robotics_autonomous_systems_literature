@@ -1,0 +1,68 @@
+{
+ "id": "RA09T05",
+ "started": "2026-10-29T18:46:53Z",
+ "wget_rc": 8,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://moveit.picknik.ai/main/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://moveit.picknik.ai/main/index.html",
+   "https://moveit.picknik.ai/main/doc/tutorials/tutorials.html",
+   "https://moveit.picknik.ai/main/doc/concepts/concepts.html"
+  ],
+  "include": [
+   "/main"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：967 个文件（HTML 289，文档源 0）",
+ "info": {
+  "files": 967,
+  "html": 289,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "png",
+    609
+   ],
+   [
+    "html",
+    289
+   ],
+   [
+    "gif",
+    16
+   ],
+   [
+    "js",
+    11
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "jpeg",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 86568960,
+ "sha256": "fec22634b36b43939a7dfff59a4787670dba9c0f6ae65539f0f1aa9dce3f17da",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:49Z",
+ "reverified": "2026-10-29T19:11:47Z"
+}

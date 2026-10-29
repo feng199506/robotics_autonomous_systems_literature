@@ -1,0 +1,65 @@
+{
+ "id": "RA06X03",
+ "started": "2026-10-29T18:27:25Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/RobotLocomotion/drake.git",
+ "ref": "(默认分支)",
+ "commit": "a817359c552863398e0030fc7005b492d2971d2a",
+ "commit_date": "2026-10-29T14:04:50-04:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "examples/manipulation",
+  "tutorials"
+ ],
+ "verify": "通过：44 个文件（HTML 0，文档源 30）",
+ "info": {
+  "files": 44,
+  "html": 0,
+  "md_rst_ipynb": 30,
+  "top_ext": [
+   [
+    "ipynb",
+    23
+   ],
+   [
+    "png",
+    6
+   ],
+   [
+    "md",
+    5
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "txt",
+    2
+   ],
+   [
+    "bazel",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "h",
+    1
+   ]
+  ],
+  "license_files": [
+   "drake_manipulation_examples_en/LICENSE.TXT",
+   "drake_manipulation_examples_en/tutorials/licensed_solvers_deepnote.ipynb"
+  ]
+ },
+ "bytes": 1116160,
+ "sha256": "faa8e0ce04da7e53ebd5c6a8480237213c2c4be60e0cf444afb4f4400340f6e8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:27Z"
+}

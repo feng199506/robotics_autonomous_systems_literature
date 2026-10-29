@@ -1,0 +1,15 @@
+{
+ "id": "RA04C02",
+ "started": "2026-10-29T18:26:07Z",
+ "download_url": "https://www.ipb.uni-bonn.de/photo12-2021/index.html",
+ "verify": "通过：40 个文件均可解析（PDF 共 2378 页）",
+ "info": {
+  "chapters": 40,
+  "pages": 2378,
+  "skipped": 0
+ },
+ "bytes": 299434059,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:26:55Z"
+}

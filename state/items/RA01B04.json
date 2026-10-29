@@ -1,0 +1,19 @@
+{
+ "id": "RA01B04",
+ "started": "2026-10-29T18:22:14Z",
+ "download_url": "https://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf",
+ "final_url": "https://ingmec.ual.es/~jlblanco/papers/jlblanco2010geometry3D_techrep.pdf",
+ "http_last_modified": "Wed, 20 Apr 2022 10:48:15 GMT",
+ "verify": "通过：pypdf 可解析 68 页；标题词匹配 1.0",
+ "info": {
+  "pages": 68,
+  "meta_title": "",
+  "body_sample_chars": 5149,
+  "title_match": 1.0
+ },
+ "bytes": 841378,
+ "sha256": "f555c5e4e4fd9ff56ffa626741bd1ee5dc4b893eb8ccd861c4dc2180a4ccce90",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:16Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "RA07B01",
+ "started": "2026-10-29T18:22:10Z",
+ "download_url": "http://incompleteideas.net/book/RLbook2020.pdf",
+ "final_url": "http://incompleteideas.net/book/RLbook2020.pdf",
+ "http_last_modified": "Tue, 26 Apr 2022 20:09:17 GMT",
+ "verify": "通过：pypdf 可解析 548 页；标题词匹配 1.0",
+ "info": {
+  "pages": 548,
+  "meta_title": "",
+  "body_sample_chars": 11467,
+  "title_match": 1.0
+ },
+ "bytes": 73129769,
+ "sha256": "2dd0d71d9ee883fbeb99f9b888c65ac3255fae2512203d11b18e838befffe9a6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:14Z"
+}

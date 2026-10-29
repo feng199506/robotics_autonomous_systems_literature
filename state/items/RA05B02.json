@@ -1,0 +1,19 @@
+{
+ "id": "RA05B02",
+ "started": "2026-10-29T18:24:30Z",
+ "download_url": "https://drive.usercontent.google.com/download?id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu&export=download",
+ "final_url": "https://drive.usercontent.google.com/download?id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu&export=download",
+ "http_last_modified": "Mon, 21 Sep 2026 02:03:38 GMT",
+ "verify": "通过：pypdf 可解析 700 页；标题词匹配 1.0",
+ "info": {
+  "pages": 700,
+  "meta_title": "Algorithms for Decision Making",
+  "body_sample_chars": 10464,
+  "title_match": 1.0
+ },
+ "bytes": 12110527,
+ "sha256": "d63d4132230e7b4c6a2420c7bfd4f9ff6dc5713a3db0d94ff707d09f9f4519ad",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:24:38Z"
+}

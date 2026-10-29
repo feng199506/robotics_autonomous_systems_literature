@@ -1,0 +1,19 @@
+{
+ "id": "RA09P01",
+ "started": "2026-10-29T18:34:07Z",
+ "download_url": "https://arxiv.org/pdf/2003.00368.pdf",
+ "final_url": "https://arxiv.org/pdf/2003.00368",
+ "http_last_modified": "Mon, 23 Jan 2023 04:06:11 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "",
+  "body_sample_chars": 12592,
+  "title_match": 1.0
+ },
+ "bytes": 5877471,
+ "sha256": "3b032eaf555c40a1967439315297e4463a5dd9c2ab1ee3bbbed86c5a2c23e58b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:18Z"
+}

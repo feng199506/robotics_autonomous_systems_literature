@@ -1,0 +1,19 @@
+{
+ "id": "RA07P03",
+ "started": "2026-10-29T18:34:30Z",
+ "download_url": "https://arxiv.org/pdf/2405.14093.pdf",
+ "final_url": "https://arxiv.org/pdf/2405.14093",
+ "http_last_modified": "Mon, 04 May 2026 00:28:48 GMT",
+ "verify": "通过：pypdf 可解析 54 页；标题词匹配 1.0",
+ "info": {
+  "pages": 54,
+  "meta_title": "A Survey on Vision-Language-Action Models for Embodied AI",
+  "body_sample_chars": 24548,
+  "title_match": 1.0
+ },
+ "bytes": 4047091,
+ "sha256": "8f8419e0ec4e0dae9a8ec649db463159cb628359194c6a09223f31e873d35a00",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:38Z"
+}

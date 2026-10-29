@@ -1,0 +1,16 @@
+{
+ "id": "RA02B01",
+ "reused_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Lynch_ModernRobotics_2017_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 642 页；标题词匹配 1.0",
+ "info": {
+  "pages": 642,
+  "meta_title": "",
+  "body_sample_chars": 6972,
+  "title_match": 1.0
+ },
+ "bytes": 7211126,
+ "sha256": "ba8b441e970173d0e0e017ad62861d6b453aa3ba75d8672822a4bfe5f02eefce",
+ "error": "",
+ "access_date": "2026-10-29"
+}

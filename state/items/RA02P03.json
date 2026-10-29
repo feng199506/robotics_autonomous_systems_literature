@@ -1,0 +1,19 @@
+{
+ "id": "RA02P03",
+ "started": "2026-10-29T18:48:05Z",
+ "download_url": "https://arxiv.org/pdf/2503.04613.pdf",
+ "final_url": "https://arxiv.org/pdf/2503.04613",
+ "http_last_modified": "Mon, 09 Mar 2026 01:15:57 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "Whole-Body Model-Predictive Control of Legged Robots with MuJoCo",
+  "body_sample_chars": 17223,
+  "title_match": 1.0
+ },
+ "bytes": 4908422,
+ "sha256": "348a6e64bead4c2915cf833716a795576312fcff5db5d107f8576da05addbc72",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:48:07Z"
+}

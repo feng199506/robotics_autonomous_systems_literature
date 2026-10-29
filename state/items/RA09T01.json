@@ -1,0 +1,48 @@
+{
+ "id": "RA09T01",
+ "started": "2026-10-29T18:33:01Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.ros.org/en/jazzy/Concepts.html",
+ "mirror_scope": {
+  "start": [
+   "https://docs.ros.org/en/jazzy/Concepts.html",
+   "https://docs.ros.org/en/jazzy/Tutorials.html",
+   "https://docs.ros.org/en/jazzy/How-To-Guides.html",
+   "https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html",
+   "https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries.html",
+   "https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Tf2/Tf2-Main.html",
+   "https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html",
+   "https://docs.ros.org/en/jazzy/Concepts/Basic/About-ROS-2-Client-Libraries.html",
+   "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Tf2.html",
+   "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Parameters.html",
+   "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Lifecycle.html"
+  ],
+  "include": [
+   "/en/jazzy"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：11 个文件（HTML 11，文档源 0）",
+ "info": {
+  "files": 11,
+  "html": 11,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    11
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 133120,
+ "sha256": "862011ba2098981ad45a1b67cf925632a5bccf3ff91de2550b46fec0e1e64592",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:07Z",
+ "reverified": "2026-10-29T18:40:40Z"
+}

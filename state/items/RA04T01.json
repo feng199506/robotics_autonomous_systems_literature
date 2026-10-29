@@ -1,0 +1,67 @@
+{
+ "id": "RA04T01",
+ "started": "2026-10-29T19:17:01Z",
+ "wget_rc": 8,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://gtsam.org/",
+ "mirror_scope": {
+  "start": [
+   "https://gtsam.org/",
+   "https://gtsam.org/get_started/",
+   "https://gtsam.org/tutorials/intro.html",
+   "https://gtsam-jlblanco-docs.readthedocs.io/en/latest/"
+  ],
+  "include": [],
+  "level": "3"
+ },
+ "verify": "通过：609 个文件（HTML 401，文档源 1）",
+ "info": {
+  "files": 609,
+  "html": 401,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    401
+   ],
+   [
+    "png",
+    133
+   ],
+   [
+    "webp",
+    33
+   ],
+   [
+    "svg",
+    13
+   ],
+   [
+    "css",
+    10
+   ],
+   [
+    "js",
+    9
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "gif",
+    2
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 63836160,
+ "sha256": "388feaddf3cadfa4d3130f8082c7e56ac710c5ff52ce3ed6a5e883d84c7c458c",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:23:22Z",
+ "reverified": "2026-10-29T19:27:08Z"
+}

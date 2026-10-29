@@ -1,0 +1,713 @@
+[
+ {
+  "id": "RA06X01",
+  "cat": "06",
+  "type": "practice",
+  "material": "官方课程仓库",
+  "title": "MIT Robotic Manipulation 课程仓库（讲义源码、notebook 与习题）",
+  "authors": "Russ Tedrake",
+  "school": "MIT",
+  "year": "2026",
+  "version": "复用源已核验的仓库快照",
+  "level": "研究生",
+  "prereq": "Python、Drake 概念、刚体运动",
+  "topics": "抓取、轨迹优化、notebook 习题",
+  "source": "https://github.com/RussTedrake/manipulation",
+  "license": "仓库内 LICENSE",
+  "goal": "操作课程配套代码与习题（不执行）",
+  "order": 1,
+  "out": "06_manipulation/practice/MIT_Manipulation_repo_en",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/practice/MIT_Manipulation_repo_en",
+   "source": "https://github.com/RussTedrake/manipulation"
+  },
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "stack": "Drake / Python",
+  "expect": {
+   "need_license": true,
+   "min_docs": 3
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/RussTedrake/manipulation"
+ },
+ {
+  "id": "RA02X01",
+  "cat": "02",
+  "type": "practice",
+  "material": "官方课程仓库",
+  "title": "MIT Underactuated Robotics 课程仓库（讲义源码、notebook 与习题）",
+  "authors": "Russ Tedrake",
+  "school": "MIT",
+  "year": "2026",
+  "version": "复用源已核验的仓库快照",
+  "level": "研究生",
+  "prereq": "Python、最优控制概念",
+  "topics": "轨迹优化、LQR、notebook 习题",
+  "source": "https://github.com/RussTedrake/underactuated",
+  "license": "仓库内 LICENSE",
+  "goal": "欠驱动课程配套代码与习题（不执行）",
+  "order": 1,
+  "out": "02_robot_modeling_control/practice/MIT_Underactuated_repo_en",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/practice/MIT_Underactuated_repo_en",
+   "source": "https://github.com/RussTedrake/underactuated"
+  },
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "stack": "Drake / Python",
+  "expect": {
+   "need_license": true,
+   "min_docs": 3
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/RussTedrake/underactuated"
+ },
+ {
+  "id": "RA05X01",
+  "cat": "05",
+  "type": "practice",
+  "material": "课程习题包",
+  "title": "Freiburg Introduction to Mobile Robotics SS2023 exercises",
+  "authors": "AIS Freiburg",
+  "school": "University of Freiburg",
+  "year": "2023",
+  "version": "SS 2023 exercises",
+  "level": "本科高年级",
+  "prereq": "Python、概率、线性代数",
+  "topics": "运动模型、滤波、定位习题",
+  "source": "http://ais.informatik.uni-freiburg.de/teaching/ss23/robotics/",
+  "license": "课程公开材料",
+  "goal": "移动机器人课程习题（不执行）",
+  "order": 1,
+  "out": "05_planning_navigation/practice/Freiburg_MobileRobotics_2023SS_Exercises_en",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/ai_undergraduate_graduate_curriculum_literature/practice/Freiburg_MobileRobotics_2023SS_Exercises_en",
+   "source": "http://ais.informatik.uni-freiburg.de/teaching/ss23/robotics/"
+  },
+  "note": "已有复用：ai_undergraduate_graduate_curriculum_literature",
+  "expect": {
+   "min_docs": 1
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "paper": {},
+  "code": "",
+  "origin": "http://ais.informatik.uni-freiburg.de/teaching/ss23/robotics/"
+ },
+ {
+  "id": "RA03X01",
+  "cat": "03",
+  "type": "practice",
+  "material": "官方示例源码",
+  "title": "OpenCV 5.0.0 samples",
+  "authors": "OpenCV team",
+  "school": "OpenCV",
+  "year": "2026",
+  "version": "5.0.0 samples（大于 5MB 数据已剔除）",
+  "level": "本科/工程",
+  "prereq": "Python 或 C++",
+  "topics": "标定、特征、立体、DNN 示例",
+  "source": "https://github.com/opencv/opencv",
+  "license": "Apache-2.0",
+  "goal": "OpenCV 官方示例（不执行）",
+  "order": 1,
+  "out": "03_perception/practice/opencv_5.0.0_samples_en.tar",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/programming_reference_literature/practice/opencv_5.0.0_samples_en.tar",
+   "source": "https://github.com/opencv/opencv"
+  },
+  "note": "已有复用：programming_reference_literature",
+  "stack": "OpenCV 5.0.0",
+  "expect": {
+   "need_license": false,
+   "min_docs": 1
+  },
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/opencv/opencv"
+ },
+ {
+  "id": "RA02X02",
+  "cat": "02",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "Modern Robotics code library (NxRLab/ModernRobotics)",
+  "authors": "Kevin Lynch; Northwestern students",
+  "school": "Northwestern University",
+  "year": "2024",
+  "version": "官方仓库 depth-1（sparse: 代码与许可证）",
+  "level": "本科/研究生",
+  "prereq": "Python 或 MATLAB、Modern Robotics 教材",
+  "topics": "正逆运动学、动力学、轨迹生成示例",
+  "source": "https://github.com/NxRLab/ModernRobotics",
+  "license": "仓库 LICENSE",
+  "goal": "教材配套参考实现（不执行）",
+  "order": 2,
+  "out": "02_robot_modeling_control/practice/NxRLab_ModernRobotics_code_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/NxRLab/ModernRobotics.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "packages",
+    "doc"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "README"
+   ]
+  },
+  "stack": "Python / MATLAB",
+  "cross": [
+   "01"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/NxRLab/ModernRobotics"
+ },
+ {
+  "id": "RA09X01",
+  "cat": "09",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "ros2/examples (ROS 2 official examples)",
+  "authors": "Open Robotics",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "官方仓库 examples（默认分支 depth-1）",
+  "level": "本科/工程",
+  "prereq": "ROS 2 概念",
+  "topics": "rclcpp/rclpy 节点、话题、服务、动作、参数、启动文件",
+  "source": "https://github.com/ros2/examples",
+  "license": "Apache-2.0",
+  "goal": "ROS 2 官方示例（不执行、不安装）",
+  "order": 1,
+  "out": "09_software_simulation/practice/ros2_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ros2/examples.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "rclcpp",
+    "rclpy",
+    "launch_testing"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "rclpy|rclcpp"
+   ]
+  },
+  "stack": "ROS 2",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/ros2/examples"
+ },
+ {
+  "id": "RA06X02",
+  "cat": "06",
+  "type": "practice",
+  "material": "官方教程源码归档",
+  "title": "MoveIt 2 tutorials repository",
+  "authors": "PickNik / MoveIt maintainers",
+  "school": "PickNik",
+  "year": "2026",
+  "version": "moveit2_tutorials 默认分支 depth-1",
+  "level": "本科高年级/工程",
+  "prereq": "ROS 2、MoveIt 2 概念",
+  "topics": "规划场景、运动规划、正逆解调用示例",
+  "source": "https://github.com/moveit/moveit2_tutorials",
+  "license": "BSD-3-Clause",
+  "goal": "MoveIt 2 官方教程源码（剔除大型网格；不执行）",
+  "order": 2,
+  "out": "06_manipulation/practice/moveit2_tutorials_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/moveit/moveit2_tutorials.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "doc"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 3
+  },
+  "stack": "MoveIt 2 + ROS 2",
+  "cross": [
+   "09"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/moveit/moveit2_tutorials"
+ },
+ {
+  "id": "RA05X02",
+  "cat": "05",
+  "type": "practice",
+  "material": "官方教程源码归档",
+  "title": "Nav2 documentation/tutorials sources (navigation2)",
+  "authors": "Open Navigation",
+  "school": "Open Navigation",
+  "year": "2026",
+  "version": "navigation2 默认分支，sparse doc/nav2_bringup",
+  "level": "本科高年级/工程",
+  "prereq": "ROS 2、Nav2 概念",
+  "topics": "导航启动、参数、示例启动文件",
+  "source": "https://github.com/ros-navigation/navigation2",
+  "license": "Apache-2.0",
+  "goal": "Nav2 官方仓库中的文档与 bringup 示例（不含地图数据集）",
+  "order": 2,
+  "out": "05_planning_navigation/practice/nav2_docs_bringup_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ros-navigation/navigation2.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "doc",
+    "nav2_bringup",
+    "nav2_simple_commander"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2
+  },
+  "stack": "Nav2 + ROS 2",
+  "cross": [
+   "09"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/ros-navigation/navigation2"
+ },
+ {
+  "id": "RA02X03",
+  "cat": "02",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "Pinocchio examples",
+  "authors": "Stack of Tasks / Inria",
+  "school": "Inria",
+  "year": "2026",
+  "version": "官方仓库 examples 目录",
+  "level": "研究生",
+  "prereq": "Python、刚体动力学",
+  "topics": "正逆动力学、URDF 加载示例",
+  "source": "https://github.com/stack-of-tasks/pinocchio",
+  "license": "BSD-2-Clause",
+  "goal": "Pinocchio 官方示例（不执行）",
+  "order": 3,
+  "out": "02_robot_modeling_control/practice/pinocchio_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/stack-of-tasks/pinocchio.git",
+   "paths": [
+    "README.md",
+    "COPYING.LESSER",
+    "LICENSE",
+    "examples",
+    "doc"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "examples"
+   ]
+  },
+  "stack": "Pinocchio",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/stack-of-tasks/pinocchio"
+ },
+ {
+  "id": "RA06X03",
+  "cat": "06",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "Drake manipulation examples (RobotLocomotion/drake examples/manipulation)",
+  "authors": "Russ Tedrake; Drake developers",
+  "school": "MIT / TRI",
+  "year": "2026",
+  "version": "官方仓库 sparse examples/manipulation + LICENSE",
+  "level": "研究生",
+  "prereq": "Python、Drake 文档",
+  "topics": "操作站、夹爪、相机示例",
+  "source": "https://github.com/RobotLocomotion/drake",
+  "license": "BSD-3-Clause",
+  "goal": "Drake 操作示例（不执行，剔除大型资源）",
+  "order": 3,
+  "out": "06_manipulation/practice/drake_manipulation_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/RobotLocomotion/drake.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "examples/manipulation",
+    "tutorials"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2
+  },
+  "stack": "Drake",
+  "cross": [
+   "09"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/RobotLocomotion/drake"
+ },
+ {
+  "id": "RA04X01",
+  "cat": "04",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "GTSAM examples",
+  "authors": "borglab / Georgia Tech",
+  "school": "Georgia Tech",
+  "year": "2026",
+  "version": "官方仓库 examples 目录",
+  "level": "研究生",
+  "prereq": "C++ 或 Python、因子图",
+  "topics": "位姿图、IMU、SLAM 小示例",
+  "source": "https://github.com/borglab/gtsam",
+  "license": "BSD-3-Clause",
+  "goal": "GTSAM 官方示例（不执行）",
+  "order": 1,
+  "out": "04_localization_mapping/practice/gtsam_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/borglab/gtsam.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "examples",
+    "python/gtsam/examples"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "examples"
+   ]
+  },
+  "stack": "GTSAM",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/borglab/gtsam"
+ },
+ {
+  "id": "RA05X03",
+  "cat": "05",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "OMPL demos",
+  "authors": "Kavraki Lab",
+  "school": "Rice University",
+  "year": "2026",
+  "version": "官方仓库 demos 目录",
+  "level": "研究生",
+  "prereq": "C++、运动规划概念",
+  "topics": "采样规划器演示",
+  "source": "https://github.com/ompl/ompl",
+  "license": "BSD-3-Clause",
+  "goal": "OMPL 官方演示（不执行）",
+  "order": 3,
+  "out": "05_planning_navigation/practice/ompl_demos_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ompl/ompl.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "demos",
+    "doc"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "demos"
+   ]
+  },
+  "stack": "OMPL",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/ompl/ompl"
+ },
+ {
+  "id": "RA03X02",
+  "cat": "03",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "Open3D examples",
+  "authors": "Intel ISL / Open3D team",
+  "school": "Intel ISL",
+  "year": "2026",
+  "version": "官方仓库 examples 目录",
+  "level": "本科高年级/工程",
+  "prereq": "Python",
+  "topics": "点云处理、配准、可视化示例",
+  "source": "https://github.com/isl-org/Open3D",
+  "license": "MIT",
+  "goal": "Open3D 官方示例（剔除大型数据）",
+  "order": 2,
+  "out": "03_perception/practice/open3d_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/isl-org/Open3D.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "examples",
+    "docs/jupyter"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2,
+   "must_have": [
+    "examples"
+   ]
+  },
+  "stack": "Open3D",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/isl-org/Open3D"
+ },
+ {
+  "id": "RA09X02",
+  "cat": "09",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "ros2_control demos",
+  "authors": "ros-controls maintainers",
+  "school": "ros-controls",
+  "year": "2026",
+  "version": "ros2_control_demos 默认分支",
+  "level": "工程",
+  "prereq": "ROS 2、控制接口概念",
+  "topics": "硬件接口、控制器、示例机器人",
+  "source": "https://github.com/ros-controls/ros2_control_demos",
+  "license": "Apache-2.0",
+  "goal": "ros2_control 官方演示（不执行、不装仿真）",
+  "order": 2,
+  "out": "09_software_simulation/practice/ros2_control_demos_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ros-controls/ros2_control_demos.git"
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2
+  },
+  "stack": "ros2_control + ROS 2",
+  "cross": [
+   "02"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/ros-controls/ros2_control_demos"
+ },
+ {
+  "id": "RA07X01",
+  "cat": "07",
+  "type": "practice",
+  "material": "官方参考项目（源码，无权重）",
+  "title": "LeRobot (Hugging Face) — library, configs, examples (no model weights)",
+  "authors": "Hugging Face LeRobot team",
+  "school": "Hugging Face",
+  "year": "2026",
+  "version": "官方仓库 depth-1，剔除权重大文件",
+  "level": "研究生/工程",
+  "prereq": "Python、PyTorch、强化学习或模仿学习概念",
+  "topics": "数据集接口、策略训练脚本、仿真环境封装",
+  "source": "https://github.com/huggingface/lerobot",
+  "license": "Apache-2.0",
+  "goal": "具身学习参考实现（不下载权重、不执行）",
+  "order": 1,
+  "out": "07_learning_embodied_ai/practice/huggingface_lerobot_src_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/huggingface/lerobot.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "lerobot",
+    "examples",
+    "docs",
+    "pyproject.toml"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 3,
+   "must_have": [
+    "lerobot"
+   ]
+  },
+  "stack": "LeRobot / PyTorch",
+  "note": "fetch 会丢弃超过阈值的权重/数据文件；不运行代码",
+  "cross": [
+   "10"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/huggingface/lerobot"
+ },
+ {
+  "id": "RA08X01",
+  "cat": "08",
+  "type": "practice",
+  "material": "官方示例源码归档",
+  "title": "ROS 2 tf2 examples / geometry2 (tf2 tutorial code)",
+  "authors": "Open Robotics",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "geometry2 仓库 tutorials 与 README",
+  "level": "本科/工程",
+  "prereq": "ROS 2",
+  "topics": "坐标变换广播与监听示例",
+  "source": "https://github.com/ros2/geometry2",
+  "license": "BSD",
+  "goal": "多坐标系/多机器人定位所需的 tf2 示例（不执行）",
+  "order": 1,
+  "out": "08_multi_robot/practice/ros2_geometry2_tf2_examples_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/ros2/geometry2.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "tf2",
+    "tf2_ros",
+    "tf2_ros_py",
+    "docs"
+   ]
+  },
+  "expect": {
+   "need_license": true,
+   "min_docs": 2
+  },
+  "stack": "ROS 2 tf2",
+  "cross": [
+   "09",
+   "04"
+  ],
+  "lang": "en",
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "code": "",
+  "origin": "https://github.com/ros2/geometry2"
+ }
+]

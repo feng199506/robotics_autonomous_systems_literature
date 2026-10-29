@@ -1,0 +1,65 @@
+{
+ "id": "RA04X01",
+ "started": "2026-10-29T18:27:27Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/borglab/gtsam.git",
+ "ref": "(默认分支)",
+ "commit": "2ffdb87c8f3248db766e4e01ffdeb3e6a80d797a",
+ "commit_date": "2026-10-29T13:17:30-04:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "examples",
+  "python/gtsam/examples"
+ ],
+ "verify": "通过：292 个文件（HTML 0，文档源 126）",
+ "info": {
+  "files": 292,
+  "html": 0,
+  "md_rst_ipynb": 126,
+  "top_ext": [
+   [
+    "cpp",
+    75
+   ],
+   [
+    "ipynb",
+    73
+   ],
+   [
+    "txt",
+    42
+   ],
+   [
+    "py",
+    32
+   ],
+   [
+    "g2o",
+    12
+   ],
+   [
+    "md",
+    11
+   ],
+   [
+    "csv",
+    8
+   ],
+   [
+    "qps",
+    8
+   ]
+  ],
+  "license_files": [
+   "gtsam_examples_en/LICENSE",
+   "gtsam_examples_en/LICENSE.BSD"
+  ]
+ },
+ "bytes": 61603840,
+ "sha256": "783405f95dba21325808ba0ad826373c28e7269b4144985d91b31ce6ee9c74f0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:31Z"
+}

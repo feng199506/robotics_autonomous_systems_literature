@@ -1,0 +1,56 @@
+{
+ "id": "RA02X02",
+ "started": "2026-10-29T18:27:12Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/NxRLab/ModernRobotics.git",
+ "ref": "(默认分支)",
+ "commit": "cbd41fdf0bf75dbd5e986d832ae14226964ff0ac",
+ "commit_date": "2026-02-17T20:14:56-08:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "packages",
+  "doc"
+ ],
+ "verify": "通过：59 个文件（HTML 0，文档源 5）",
+ "info": {
+  "files": 59,
+  "html": 0,
+  "md_rst_ipynb": 5,
+  "top_ext": [
+   [
+    "m",
+    48
+   ],
+   [
+    "md",
+    4
+   ],
+   [
+    "py",
+    4
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "pdf",
+    1
+   ],
+   [
+    "tex",
+    1
+   ]
+  ],
+  "license_files": [
+   "NxRLab_ModernRobotics_code_en/LICENSE"
+  ]
+ },
+ "bytes": 563200,
+ "sha256": "c160b9ad74c33d797b6db44e3f24c0bc770469a991e4b9c6308024c5cfd1a24d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:14Z"
+}

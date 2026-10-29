@@ -1,0 +1,19 @@
+{
+ "id": "RA02P01",
+ "started": "2026-10-29T18:47:52Z",
+ "download_url": "https://www.roboticsproceedings.org/rss14/p38.pdf",
+ "final_url": "https://www.roboticsproceedings.org/rss14/p38.pdf",
+ "http_last_modified": "Sat, 31 Aug 2019 21:59:23 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 1.0",
+ "info": {
+  "pages": 10,
+  "meta_title": "",
+  "body_sample_chars": 18869,
+  "title_match": 1.0
+ },
+ "bytes": 281814,
+ "sha256": "0bbd0fccb8d4b869b970a8f2ac062f6c3831403a27069c0bf8efa198b4e51d5a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:47:54Z"
+}

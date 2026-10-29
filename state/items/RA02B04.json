@@ -1,0 +1,19 @@
+{
+ "id": "RA02B04",
+ "started": "2026-10-29T18:22:17Z",
+ "download_url": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/RD_HS2017script.pdf",
+ "final_url": "https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/RD_HS2017script.pdf",
+ "http_last_modified": "Tue, 14 Nov 2017 21:07:56 GMT",
+ "verify": "通过：pypdf 可解析 100 页；标题词匹配 1.0",
+ "info": {
+  "pages": 100,
+  "meta_title": "",
+  "body_sample_chars": 4920,
+  "title_match": 1.0
+ },
+ "bytes": 1258066,
+ "sha256": "a266ee623a8f67e46beb13e9e2f0d2ef8aebaad39091ee234dc88cbc2176012e",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:22:18Z"
+}

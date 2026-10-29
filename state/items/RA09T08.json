@@ -1,0 +1,65 @@
+{
+ "id": "RA09T08",
+ "started": "2026-10-29T19:04:55Z",
+ "wget_rc": 8,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://drake.mit.edu/",
+ "mirror_scope": {
+  "start": [
+   "https://drake.mit.edu/",
+   "https://drake.mit.edu/getting_started.html",
+   "https://drake.mit.edu/python_bindings.html",
+   "https://drake.mit.edu/doxygen_cxx/index.html"
+  ],
+  "include": [],
+  "level": "2"
+ },
+ "verify": "通过：1287 个文件（HTML 1230，文档源 0）",
+ "info": {
+  "files": 1287,
+  "html": 1230,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    1230
+   ],
+   [
+    "png",
+    19
+   ],
+   [
+    "svg",
+    16
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "js",
+    9
+   ],
+   [
+    "jpg",
+    3
+   ],
+   [
+    "webmanifest",
+    1
+   ]
+  ],
+  "license_files": [
+   "Drake_Docs_html_en/tutorials/licensed_solvers_deepnote.html"
+  ]
+ },
+ "bytes": 110489600,
+ "sha256": "c8cf727a5f534af384b6fcbfe4d668f42043fcc68dbf4979920589619885fb3c",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:17:01Z",
+ "reverified": "2026-10-29T19:27:08Z"
+}

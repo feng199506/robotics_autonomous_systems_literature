@@ -1,0 +1,68 @@
+{
+ "id": "RA09T02",
+ "started": "2026-10-29T18:33:07Z",
+ "wget_rc": 0,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://gazebosim.org/docs",
+ "mirror_scope": {
+  "start": [
+   "https://gazebosim.org/docs",
+   "https://gazebosim.org/docs/harmonic/getstarted",
+   "https://gazebosim.org/docs/harmonic/overview"
+  ],
+  "include": [
+   "/docs"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：602 个文件（HTML 164，文档源 1）",
+ "info": {
+  "files": 602,
+  "html": 164,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    164
+   ],
+   [
+    "css",
+    91
+   ],
+   [
+    "png",
+    74
+   ],
+   [
+    "js",
+    39
+   ],
+   [
+    "js?digest=18bd87630a240e9c25be",
+    39
+   ],
+   [
+    "woff2",
+    39
+   ],
+   [
+    "gif",
+    34
+   ],
+   [
+    "svg",
+    28
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 85575680,
+ "sha256": "5c47900f48f581deaece4f0b24664d4fa5be7809c85474b36c60e16f3ad0d573",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:01Z",
+ "reverified": "2026-10-29T18:40:40Z"
+}

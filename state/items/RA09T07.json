@@ -1,0 +1,63 @@
+{
+ "id": "RA09T07",
+ "started": "2026-10-29T18:57:23Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://stack-of-tasks.github.io/pinocchio/",
+ "mirror_scope": {
+  "start": [
+   "https://stack-of-tasks.github.io/pinocchio/",
+   "https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/"
+  ],
+  "include": [],
+  "level": "2"
+ },
+ "verify": "通过：898 个文件（HTML 550，文档源 1）",
+ "info": {
+  "files": 898,
+  "html": 550,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    550
+   ],
+   [
+    "png",
+    328
+   ],
+   [
+    "css",
+    7
+   ],
+   [
+    "js",
+    7
+   ],
+   [
+    "svg",
+    3
+   ],
+   [
+    "ico",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 20224000,
+ "sha256": "07c9f2ae5c6e1c8a0ad283316dbe291432cbc0ad53d546157d6c128d70c66d32",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:04:55Z"
+}

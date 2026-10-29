@@ -1,0 +1,19 @@
+{
+ "id": "RA06P08",
+ "started": "2026-10-29T18:49:43Z",
+ "download_url": "https://arxiv.org/pdf/2311.01455.pdf",
+ "final_url": "https://arxiv.org/pdf/2311.01455",
+ "http_last_modified": "Tue, 18 Jun 2024 01:02:11 GMT",
+ "verify": "通过：pypdf 可解析 48 页；标题词匹配 1.0",
+ "info": {
+  "pages": 48,
+  "meta_title": " RoboGen: Towards Unleashing Infinite Data for  Automated Robot Learning via Generative Simulation ",
+  "body_sample_chars": 9794,
+  "title_match": 1.0
+ },
+ "bytes": 34123085,
+ "sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:49:48Z"
+}

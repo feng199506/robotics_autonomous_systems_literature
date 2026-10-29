@@ -1,0 +1,19 @@
+{
+ "id": "RA06P05",
+ "started": "2026-10-29T18:48:00Z",
+ "download_url": "https://arxiv.org/pdf/2409.01652.pdf",
+ "final_url": "https://arxiv.org/pdf/2409.01652",
+ "http_last_modified": "Wed, 13 Nov 2024 01:21:33 GMT",
+ "verify": "通过：pypdf 可解析 30 页；标题词匹配 1.0",
+ "info": {
+  "pages": 30,
+  "meta_title": "",
+  "body_sample_chars": 12799,
+  "title_match": 1.0
+ },
+ "bytes": 13951618,
+ "sha256": "6820e718a66f3c52f27996d3ee2623260dd442eddeab2df098212eb6eb769334",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:48:04Z"
+}

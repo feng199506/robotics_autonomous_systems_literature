@@ -1,0 +1,66 @@
+{
+ "id": "RA08X01",
+ "started": "2026-10-29T18:27:41Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ros2/geometry2.git",
+ "ref": "(默认分支)",
+ "commit": "7e8419c9b4a073ce25cafc0c047b615409697faa",
+ "commit_date": "2026-10-23T12:14:05+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "tf2",
+  "tf2_ros",
+  "tf2_ros_py",
+  "docs"
+ ],
+ "verify": "通过：137 个文件（HTML 0，文档源 10）",
+ "info": {
+  "files": 137,
+  "html": 0,
+  "md_rst_ipynb": 10,
+  "top_ext": [
+   [
+    "cpp",
+    39
+   ],
+   [
+    "hpp",
+    34
+   ],
+   [
+    "py",
+    20
+   ],
+   [
+    "h",
+    14
+   ],
+   [
+    "rst",
+    7
+   ],
+   [
+    "",
+    6
+   ],
+   [
+    "xml",
+    3
+   ],
+   [
+    "yaml",
+    3
+   ]
+  ],
+  "license_files": [
+   "ros2_geometry2_tf2_examples_en/LICENSE"
+  ]
+ },
+ "bytes": 1822720,
+ "sha256": "a36d66964f03cdd789ce7dac777d229efff3e5b0c4e7f54f4561a86aa46d75f5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:27:42Z"
+}

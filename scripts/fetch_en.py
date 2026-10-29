@@ -164,7 +164,8 @@ def get_pdfset(seed, st):
     tmpdir = STAGING / (seed["id"] + "_set")
     shutil.rmtree(tmpdir, ignore_errors=True)
     tmpdir.mkdir(parents=True)
-    bad, pages, names = [], 0, []
+    bad, pages, names, kept_urls = [], 0, [], []
+    min_files = int(g.get("min_files", 1))
     for u in urls:
         name = urllib.parse.unquote(u.rstrip("/").split("/")[-1]) or "index.pdf"
         name = re.sub(r"[^A-Za-z0-9._-]", "_", name)
@@ -174,6 +175,7 @@ def get_pdfset(seed, st):
         r = http(u, dest=dest, timeout=300)
         if r["status"] != 200:
             bad.append(f"{u}: {r['status']}")
+            dest.unlink(missing_ok=True)
             continue
         if name.lower().endswith(".txt"):
             body = dest.read_bytes()
@@ -183,18 +185,26 @@ def get_pdfset(seed, st):
             ok, msg, info = pdf_check(dest, {"min_pages": 1, "allow_scan": True})
         if not ok:
             bad.append(f"{name}: {msg}")
+            dest.unlink(missing_ok=True)
             continue
         names.append(name)
+        kept_urls.append(u)
         pages += info.get("pages", 0)
-    if bad:
-        st["error"] = f"{len(bad)} 个章节失败: " + "; ".join(bad)[:1200]
+    if len(names) < min_files:
+        st["error"] = f"成功 {len(names)} < {min_files}；失败 {len(bad)}: " + "; ".join(bad)[:1200]
         return False
-    (tmpdir / "_chapter_order_en.txt").write_text("\n".join(f"{n}\t{u}" for n, u in zip(names, urls)) + "\n")
+    (tmpdir / "_chapter_order_en.txt").write_text(
+        "\n".join(f"{n}\t{u}" for n, u in zip(names, kept_urls)) + "\n")
+    if bad:
+        (tmpdir / "_skipped_en.txt").write_text("\n".join(bad) + "\n")
     shutil.rmtree(outdir, ignore_errors=True)
     outdir.parent.mkdir(parents=True, exist_ok=True)
     shutil.move(tmpdir, outdir)
-    st.update(download_url=g.get("index") or urls[0], verify=f"通过：{len(names)} 个文件均可解析（PDF 共 {pages} 页）",
-              info={"chapters": len(names), "pages": pages}, bytes=sum(p.stat().st_size for p in outdir.iterdir()))
+    skip = f"；跳过 {len(bad)} 个不可用链接" if bad else ""
+    st.update(download_url=g.get("index") or kept_urls[0],
+              verify=f"通过：{len(names)} 个文件均可解析（PDF 共 {pages} 页）{skip}",
+              info={"chapters": len(names), "pages": pages, "skipped": len(bad)},
+              bytes=sum(p.stat().st_size for p in outdir.iterdir() if p.is_file()))
     return True
 
 
@@ -440,8 +450,11 @@ def get_mirror(seed, st):
     shutil.rmtree(work, ignore_errors=True)
     names, _ = list_archive(out)
     ok, msg, info = check_tree(names, out, seed.get("expect", {}))
-    if st["quota_hit"]:
-        ok, msg = False, "镜像达到配额上限，可能不完整：" + msg
+    if st["quota_hit"] and not ok:
+        ok, msg = False, "镜像达到配额上限且文档数不足：" + msg
+    elif st["quota_hit"] and ok:
+        msg = "配额截断（范围内文档数已达标，记为部分）：" + msg
+        seed["complete"] = seed.get("complete") or "部分"
     st.update(download_url=starts[0], mirror_scope={"start": starts, "include": incl, "level": g.get("level", "inf")},
               verify=msg, info=info, bytes=out.stat().st_size, sha256=sha256(out))
     if not ok:

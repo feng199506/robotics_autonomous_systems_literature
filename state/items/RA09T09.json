@@ -1,0 +1,19 @@
+{
+ "id": "RA09T09",
+ "started": "2026-10-29T18:51:06Z",
+ "download_url": "https://control.ros.org/rolling/downloads/ros2_control_rolling.pdf",
+ "final_url": "https://control.ros.org/rolling/downloads/ros2_control_rolling.pdf",
+ "http_last_modified": "Thu, 29 Oct 2026 05:49:00 GMT",
+ "verify": "通过：pypdf 可解析 453 页；标题词匹配 1.0",
+ "info": {
+  "pages": 453,
+  "meta_title": "ros2_control Documentation (Rolling Ridley)",
+  "body_sample_chars": 5924,
+  "title_match": 1.0
+ },
+ "bytes": 23474304,
+ "sha256": "bdddab88fb9960347a57f26e43ca3fc88291b1bcb1b93c19724d6442105209d8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:51:07Z"
+}

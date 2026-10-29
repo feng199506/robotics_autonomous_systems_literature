@@ -1,0 +1,19 @@
+{
+ "id": "RA07P02",
+ "started": "2026-10-29T18:34:18Z",
+ "download_url": "https://arxiv.org/pdf/2312.07843.pdf",
+ "final_url": "https://arxiv.org/pdf/2312.07843",
+ "http_last_modified": "Thu, 14 Dec 2023 02:25:15 GMT",
+ "verify": "通过：pypdf 可解析 33 页；标题词匹配 1.0",
+ "info": {
+  "pages": 33,
+  "meta_title": "",
+  "body_sample_chars": 25678,
+  "title_match": 1.0
+ },
+ "bytes": 615208,
+ "sha256": "c043fd4ecc37786f50bc2c888e871608c729ec02317c2cfa315335faa21c7085",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:30Z"
+}

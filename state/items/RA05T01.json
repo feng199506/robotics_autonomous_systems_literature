@@ -1,0 +1,67 @@
+{
+ "id": "RA05T01",
+ "started": "2026-10-29T19:23:22Z",
+ "wget_rc": 8,
+ "quota_hit": true,
+ "dropped_large_files": [
+  "OMPL_Docs_html_en/images/frontpage/capt_demo.gif (42483 KiB)"
+ ],
+ "dropped_count": 1,
+ "download_url": "https://ompl.kavrakilab.org/",
+ "mirror_scope": {
+  "start": [
+   "https://ompl.kavrakilab.org/",
+   "https://ompl.kavrakilab.org/core/api_overview.html",
+   "https://ompl.kavrakilab.org/core/education.html",
+   "https://ompl.kavrakilab.org/gui.html"
+  ],
+  "include": [],
+  "level": "3"
+ },
+ "verify": "通过：497 个文件（HTML 461，文档源 0）",
+ "info": {
+  "files": 497,
+  "html": 461,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    461
+   ],
+   [
+    "png",
+    14
+   ],
+   [
+    "jpg",
+    7
+   ],
+   [
+    "js",
+    6
+   ],
+   [
+    "css",
+    4
+   ],
+   [
+    "pdf",
+    3
+   ],
+   [
+    "gif",
+    2
+   ]
+  ],
+  "license_files": [
+   "OMPL_Docs_html_en/license.html"
+  ]
+ },
+ "bytes": 42506240,
+ "sha256": "8bc533ed23fe67b1726e600db84eb6b1fbfed2f0ce0d5b190575e690f93e57e4",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:28:03Z",
+ "reverified": "2026-10-29T19:34:09Z"
+}

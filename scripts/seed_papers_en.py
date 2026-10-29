@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Write paper seed JSON. Dates checked against arXiv v1 later in fetch_metadata."""
 import json
+import sys
 from pathlib import Path
 
-from common_en import SCRIPTS
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from common_en import SCRIPTS  # noqa: E402
 
 SEEDS = SCRIPTS / "seeds"
 
@@ -99,9 +101,9 @@ papers.append(P(
     note="v1 提交日 2023-03-07，早于窗口起点 2023-10-30，按经典列。",
 ))
 papers.append(P(
-    id="RA02P01", cat="02", arxiv="1902.01078", year="2019",
-    title="The Pinocchio C++ library — A fast and flexible implementation of rigid body dynamics algorithms and their analytical derivatives",
-    authors="Justin Carpentier; Guilhem Saurel; Gabriele Buondonno; Joseph Mirabel; Florent Lamiraux; Olivier Stasse; Nicolas Mansard",
+    id="RA02P01", cat="02", arxiv="", year="2018",
+    title="Analytical Derivatives of Rigid Body Dynamics Algorithms",
+    authors="Justin Carpentier; Nicolas Mansard",
     title_words=["Pinocchio", "rigid", "body"],
     out="02_robot_modeling_control/papers/2019_Carpentier_PinocchioLibrary_en.pdf",
     window="三年前经典",
@@ -174,7 +176,7 @@ papers.append(P(
     note="占位；fetch_metadata 将核验标题，不匹配则记失败。",
 ))
 papers.append(P(
-    id="RA04P03", cat="04", arxiv="2408.01810", year="2024",
+    id="RA04P03", cat="04", arxiv="2402.13255", year="2024",
     title="How NeRFs and 3D Gaussian Splatting are Reshaping SLAM: a Survey",
     authors="Fabio Tosi; Youmin Zhang; Ziren Gong; Erik Sandström; Stefano Mattoccia; Martin R. Oswald; Matteo Poggi",
     title_words=["Gaussian", "Splatting", "SLAM"],
@@ -184,14 +186,14 @@ papers.append(P(
     cross=["03"],
 ))
 papers.append(P(
-    id="RA08P01", cat="08", arxiv="2404.05345", year="2024",
-    title="A Survey on Distributed Multi-Robot Systems",
-    authors="",
-    title_words=["Multi", "Robot"],
-    out="08_multi_robot/papers/2024_Survey_DistributedMultiRobot_en.pdf",
-    topics="多机器人系统综述",
+    id="RA08P01", cat="08", arxiv="2503.07278", year="2025",
+    title="Multi-Robot System for Cooperative Exploration in Unknown Environments: A Survey",
+    authors="Chuqi Wang; Chao Yu; Xin Xu; Yinuo Chen; Yuman Gao; Xinyi Yang; Wenhao Tang; Shu’ang Yu; Feng Gao; Zhuozhu Jian; Xinlei Chen; Fei Gao; Boyu Zhou; Yu Wang",
+    title_words=["Multi-Robot", "Cooperative", "Exploration"],
+    out="08_multi_robot/papers/2025_Wang_MultiRobotCooperativeExplorationSurvey_en.pdf",
+    topics="多机协作探索、定位建图、任务分配、通信约束",
     paper={"robot_type": "多机器人", "task": "综述", "sensors": "", "real_robot": "", "eval": "", "code": "", "data": ""},
-    note="编号将用 arXiv API 核验；不匹配则失败。",
+    note="替换占位 arXiv 2404.05345。",
 ))
 papers.append(P(
     id="RA10P01", cat="10", arxiv="2312.04316", year="2023",
@@ -356,15 +358,17 @@ papers.append(P(
     note="若 v1 早于窗口则标经典：NVIDIA 实时运动生成库的代表实现。",
 ))
 papers.append(P(
-    id="RA05P04", cat="05", arxiv="2403.19027", year="2024",
-    title="Motion Policy Networks: Real-time Collision Avoidance for Manipulation",
-    authors="",
+    id="RA05P04", cat="05", arxiv="2210.12209", year="2022",
+    title="Motion Policy Networks",
+    authors="Adam Fishman; Adithyavairavan Murali; Clemens Eppner; Bryan Peele; Byron Boots; Dieter Fox",
     title_words=["Motion", "Policy", "Networks"],
-    out="05_planning_navigation/papers/2024_MotionPolicyNetworks_en.pdf",
+    out="05_planning_navigation/papers/2022_Fishman_MotionPolicyNetworks_en.pdf",
     topics="学习式运动策略、避障",
     paper={"robot_type": "机械臂", "task": "实时避障运动", "sensors": "",
            "real_robot": "", "eval": "", "code": "", "data": ""},
-    note="MπNets 原文可能更早；本编号将核验。",
+    note="CoRL 2022。v1 2022-10-21，早于窗口，按经典列。",
+    window="三年前经典",
+    classic_reason="CoRL 2022。学习式实时避障运动策略的参照实现。",
     cross=["06"],
 ))
 
@@ -908,11 +912,13 @@ def main():
             pass  # keep default arxiv urls; HAL fallback added below
         if p["id"] == "RA02P01":
             p["get"]["urls"] = [
-                "https://hal.science/hal-01866228v4/file/pinocchio.pdf",
-                "https://hal.archives-ouvertes.fr/hal-01866228v4/file/pinocchio.pdf",
-                "https://arxiv.org/pdf/1901.10485.pdf",
+                "https://www.roboticsproceedings.org/rss14/p38.pdf",
             ]
-            p["expect"]["title_words"] = ["Pinocchio", "library"]
+            p["expect"]["title_words"] = ["Analytical", "Derivatives", "Rigid"]
+            p["source"] = "https://www.roboticsproceedings.org/rss14/p38.html"
+            p["out"] = "02_robot_modeling_control/papers/2018_Carpentier_AnalyticalDerivativesRBDA_en.pdf"
+            p["classic_reason"] = "RSS 2018。Pinocchio 解析导数理论来源；SII 2019 库介绍文被 HAL Anubis 拦截。"
+            p["license"] = "RSS 会议公开论文集"
         if p["id"] == "RA01P03":
             p["get"]["urls"] = ["https://arxiv.org/pdf/1812.07035.pdf"]
             p["arxiv"] = "1812.07035"

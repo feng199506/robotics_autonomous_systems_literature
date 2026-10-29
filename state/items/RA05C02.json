@@ -1,0 +1,19 @@
+{
+ "id": "RA05C02",
+ "started": "2026-10-29T18:24:44Z",
+ "download_url": "https://stanfordasl.github.io/PoRA-I/aa174a_aut2425/pdfs/AA_PoRA_lecture_notes_2425.pdf",
+ "final_url": "https://stanfordasl.github.io/PoRA-I/aa174a_aut2425/pdfs/AA_PoRA_lecture_notes_2425.pdf",
+ "http_last_modified": "Mon, 26 Oct 2026 21:13:20 GMT",
+ "verify": "通过：pypdf 可解析 327 页；标题词匹配 1.0",
+ "info": {
+  "pages": 327,
+  "meta_title": "",
+  "body_sample_chars": 10854,
+  "title_match": 1.0
+ },
+ "bytes": 50624915,
+ "sha256": "6af315f4ced92e58d431734e3db484fa90e60803cb0c367f6edb23b0dd777f34",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:24:46Z"
+}

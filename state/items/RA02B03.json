@@ -1,0 +1,16 @@
+{
+ "id": "RA02B03",
+ "reused_from": "/root/control_systems_automation_literature/05_advanced_control/books/Murray_OptimizationBasedControl_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 165 页；标题词匹配 1.0",
+ "info": {
+  "pages": 165,
+  "meta_title": "",
+  "body_sample_chars": 3985,
+  "title_match": 1.0
+ },
+ "bytes": 4612622,
+ "sha256": "b9fa6abce89a20c4d9ad8acf44da7998531da0e5a1e618ad5aa81907d1d733e2",
+ "error": "",
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "RA01B03",
+ "started": "2026-10-29T18:24:38Z",
+ "download_url": "https://drive.usercontent.google.com/download?id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp&export=download",
+ "final_url": "https://drive.usercontent.google.com/download?id=1Rx7MAekKZbyNVc5B2MNfR0HXXIEJCksp&export=download",
+ "http_last_modified": "Sat, 05 Sep 2026 22:22:17 GMT",
+ "verify": "通过：pypdf 可解析 634 页；标题词匹配 1.0",
+ "info": {
+  "pages": 634,
+  "meta_title": "Algorithms for Optimization",
+  "body_sample_chars": 7672,
+  "title_match": 1.0
+ },
+ "bytes": 18967454,
+ "sha256": "874e643064b827597a7fd872144df91ebc68092fb68121f828b7f71a18799bd4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:24:44Z"
+}
